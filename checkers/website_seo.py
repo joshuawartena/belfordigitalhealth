@@ -33,6 +33,16 @@ from config import (
 
 log = logging.getLogger('audit')
 
+_REVIEW_WIDGET_PATTERNS = (
+    'birdeye', 'podium.com', 'gatherup', 'grade.us',
+    'reviewwave', 'trustpilot', 'reviews.io', 'widewail',
+)
+
+_FACEBOOK_SHARE_PATTERNS = (
+    'sharer', 'share', 'dialog/feed', 'intent/tweet', 'intent/share',
+    '#', 'javascript:',
+)
+
 # ─── Helper ──────────────────────────────────────────────────────────────────
 
 def _pts(check_key: str) -> Tuple[float, str]:
