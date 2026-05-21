@@ -87,6 +87,15 @@ def _score_bg(score: float) -> str:
         return '#ffedd5'
     return '#fee2e2'
 
+def _sanitize_surrogates(obj):
+    """Recursively replace surrogate characters in strings so json.dumps doesn't crash."""
+    if isinstance(obj, str):
+        return obj.encode('utf-8', errors='replace').decode('utf-8')
+    if isinstance(obj, dict):
+        return {k: _sanitize_surrogates(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_sanitize_surrogates(item) for item in obj]
+    return obj
 
 # ═══════════════════════════════════════════════════════════════════════════════
 #  HTML Report
@@ -414,9 +423,12 @@ def generate_html_report(audit: AuditResult, output_path: str) -> str:
             belfor_logo=_get_base64_asset('BELFOR_Franchise_Group_.jpg'),
             wms_logo=_get_base64_asset('WMS-Logo-Transparent-cropped.png'),
         )
+        
+        html = _sanitize_surrogates(html)
 
         os.makedirs(os.path.dirname(output_path) or '.', exist_ok=True)
         Path(output_path).write_text(html, encoding='utf-8', errors='replace')
+        
         logger.info('HTML report written → %s', output_path)
         return output_path
 
@@ -503,10 +515,11 @@ def generate_json_report(audit: AuditResult, output_path: str) -> str:
     """
     try:
         data = _audit_to_dict(audit)
+        data = _sanitize_surrogates(data)
         os.makedirs(os.path.dirname(output_path) or '.', exist_ok=True)
         Path(output_path).write_text(
-        json.dumps(data, indent=2, ensure_ascii=False), encoding='utf-8', errors='replace',
-    )
+            json.dumps(data, indent=2, ensure_ascii=False), encoding='utf-8', errors='replace',
+       )
         logger.info('JSON report written → %s', output_path)
         return output_path
 
