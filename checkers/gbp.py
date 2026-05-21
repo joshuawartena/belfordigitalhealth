@@ -373,20 +373,41 @@ class GBPChecker:
                 detail=f'GBP name "{display_name}" matches the expected name "{expected_name}".',
             )
         # Close match — one contains the other (e.g. "Forks Chem-Dry" vs "Forks Chem-Dry Carpet Cleaning")
+                # Close match — one contains the other (e.g. "Forks Chem-Dry" vs "Forks Chem-Dry Carpet Cleaning")
         elif norm_expected in norm_display or norm_display in norm_expected:
-            cat.add(
-                name='Name Match', status='warn', priority=pri,
-                points_earned=round(pts * 0.75, 1), points_possible=pts,
-                value=display_name,
-                detail=f'GBP name "{display_name}" is a close match but not exact to "{expected_name}".',
-                recommendation=(
-                    f"🏷️ BUSINESS NAME ALIGNMENT: Your GBP display name is '{display_name}' but the expected "
-                    f"franchise name is '{expected_name}'. While these are similar, an exact match is important "
-                    "for NAP consistency across all citations. Update the GBP display name to exactly match "
-                    f"'{expected_name}' in the GBP dashboard unless there is a specific branding exception "
-                    "approved by your franchise organization."
-                ),
-            )
+            # Explicitly verify the brand keyword is present; "Forks" must not pass as close to "Forks Chem-Dry"
+            brand_terms = ['chemdry', 'chem dry']
+            expected_has_brand = any(b in norm_expected for b in brand_terms)
+            display_has_brand = any(b in norm_display for b in brand_terms)
+            if expected_has_brand and not display_has_brand:
+                cat.add(
+                    name='Name Match', status='fail', priority=pri,
+                    points_earned=0, points_possible=pts,
+                    value=display_name,
+                    detail=f'GBP name "{display_name}" does not match expected name "{expected_name}".',
+                    recommendation=(
+                        f"🏷️ CRITICAL NAME MISMATCH: The display name on your Google Business Profile is "
+                        f"'{display_name}', but the expected franchise name is '{expected_name}'. An incorrect "
+                        "GBP name is a critical local authority and trust issue - it leads to customer confusion, "
+                        "damages NAP citation consistency, and can violate national brand guidelines. Update the "
+                        f"business display name in the GBP dashboard to exactly match '{expected_name}' in "
+                        "compliance with your franchise agreement."
+                    ),
+                )
+            else:
+                cat.add(
+                    name='Name Match', status='warn', priority=pri,
+                    points_earned=round(pts * 0.75, 1), points_possible=pts,
+                    value=display_name,
+                    detail=f'GBP name "{display_name}" is a close match but not exact to "{expected_name}".',
+                    recommendation=(
+                        f"🏷️ BUSINESS NAME ALIGNMENT: Your GBP display name is '{display_name}' but the expected "
+                        f"franchise name is '{expected_name}'. While these are similar, an exact match is important "
+                        "for NAP consistency across all citations. Update the GBP display name to exactly match "
+                        f"'{expected_name}' in the GBP dashboard unless there is a specific branding exception "
+                        "approved by your franchise organization."
+                    ),
+                )
         else:
             cat.add(
                 name='Name Match', status='fail', priority=pri,
