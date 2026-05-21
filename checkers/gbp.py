@@ -865,71 +865,7 @@ class GBPChecker:
                 ),
             )
 
-        # Get the GBP primary category display name
-        display_name = ''
-        type_display = place.get('primaryTypeDisplayName')
-        if isinstance(type_display, dict):
-            display_name = type_display.get('text', '')
-        elif isinstance(type_display, str):
-            display_name = type_display
-
-        primary_type = place.get('primaryType', '')
-        label = display_name or primary_type
-
-        if not label:
-            cat.add(
-                name='Category Match', status='fail', priority=pri,
-                points_earned=0, points_possible=pts,
-                value='(no category set)',
-                detail=f'No primary category is set on the GBP, but expected "{expected}".',
-                recommendation=(
-                    f"🚨 CRITICAL CATEGORY MISSING: Your Google Business Profile has no primary category set, but "
-                    f"the expected category is '{expected}'. Set your primary category immediately in the GBP "
-                    "dashboard — this is the single most important ranking factor for local map visibility."
-                ),
-            )
-            return
-
-        # Compare: case-insensitive, flexible matching
-        norm_expected = expected.lower().strip()
-        norm_label = label.lower().strip()
-
-        if norm_expected == norm_label:
-            cat.add(
-                name='Category Match', status='pass', priority=pri,
-                points_earned=pts, points_possible=pts,
-                value=label,
-                detail=f'GBP primary category "{label}" matches expected category "{expected}".',
-            )
-        elif norm_expected in norm_label or norm_label in norm_expected:
-            # Partial match (e.g. "Carpet Cleaning" vs "Carpet Cleaning Service")
-            cat.add(
-                name='Category Match', status='warn', priority=pri,
-                points_earned=round(pts * 0.5, 1), points_possible=pts,
-                value=label,
-                detail=f'GBP primary category "{label}" is a partial match to expected "{expected}".',
-                recommendation=(
-                    f"🏷️ CATEGORY REFINEMENT: Your GBP primary category is '{label}', which partially matches "
-                    f"the expected '{expected}'. Verify that the exact category '{expected}' is available in "
-                    "Google's category list and update if so — precision in category selection directly impacts "
-                    "which search queries your listing appears for."
-                ),
-            )
-        else:
-            cat.add(
-                name='Category Match', status='fail', priority=pri,
-                points_earned=0, points_possible=pts,
-                value=label,
-                detail=f'GBP primary category "{label}" does NOT match expected "{expected}".',
-                recommendation=(
-                    f"🚨 CRITICAL CATEGORY MISMATCH: Your GBP primary category is '{label}', but the expected "
-                    f"category for this franchise is '{expected}'. This is a major red flag — an incorrect primary "
-                    "category means Google is showing your listing for the WRONG types of searches. For example, "
-                    f"people searching for '{expected.lower()}' services will not find you in the Map Pack. "
-                    f"Log in to your GBP dashboard immediately and change the primary category to '{expected}'. "
-                    "You may keep the current category as a secondary category if relevant."
-                ),
-            )
+       
 
     def _check_nap_consistency(self, cat: CategoryResult, place: dict, audit: AuditResult):
         """Check that Name, Address, and Phone (NAP) are consistent between GBP and the audit reference sheet."""
