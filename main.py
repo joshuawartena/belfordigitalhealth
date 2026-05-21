@@ -358,7 +358,7 @@ def load_batch_csv(csv_path: str) -> List[AuditResult]:
 
         for row_num, row in enumerate(reader, start=2):
             # Normalize column names
-            row = {k.strip().lower(): v.strip() for k, v in row.items()}
+            row = {k.strip().lower(): (v or '').strip() for k, v in row.items()}
 
             domain = normalize_domain(row.get('domain', ''))
             if not domain:
@@ -590,10 +590,11 @@ Examples:
         help='Generate PDF reports (requires pdf_generator module)',
     )
     output_group.add_argument(
-        '--html',
-        action='store_true',
+        '--no-html',
+        action='store_false',
+        dest='html',
         default=True,
-        help='Generate HTML reports (default: True)',
+        help='Disable HTML report generation',
     )
 
     # ── Checker toggles ───────────────────────────────────────────────────
