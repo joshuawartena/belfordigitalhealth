@@ -112,7 +112,7 @@ class WebsiteSEOChecker:
         self._check_footer_nap(cat, soup, audit)
         self._check_city_page(cat, audit)
         self._check_housecall_pro(cat, soup, audit)
-        self._check_maps_embed(cat, soup, audit)
+        self._check_maps_embed(cat, soup)
         self._check_facebook_page(cat, soup)
 
         return cat
@@ -1037,11 +1037,10 @@ class WebsiteSEOChecker:
 
     # ── Google Maps / Reviews Embed ────────────────────────────────────────
 
-    def _check_maps_embed(self, cat: CategoryResult, soup: BeautifulSoup, audit: AuditResult):
+    def _check_maps_embed(self, cat: CategoryResult, soup: BeautifulSoup):
         """Check for a Google Maps iframe, Maps link, or embedded review widget."""
         pts, pri = _pts('maps_embed')
 
-        # 1. Google Maps iframe embed
         for iframe in soup.find_all('iframe', src=True):
             src = iframe['src'].lower()
             if 'maps.google.com' in src or 'google.com/maps' in src:
@@ -1052,8 +1051,6 @@ class WebsiteSEOChecker:
                     detail='An embedded Google Maps iframe was found on the homepage, providing a strong local trust and engagement signal.',
                 )
                 return
-
-        # 2. Google Maps anchor link (not a share link)
         for a in soup.find_all('a', href=True):
             href = a['href'].lower()
             if ('maps.google.com' in href or 'google.com/maps' in href) and 'share' not in href:
