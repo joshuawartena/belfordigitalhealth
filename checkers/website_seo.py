@@ -33,6 +33,16 @@ from config import (
 
 log = logging.getLogger('audit')
 
+_REVIEW_WIDGET_PATTERNS = (
+    'birdeye', 'podium.com', 'gatherup', 'grade.us',
+    'reviewwave', 'trustpilot', 'reviews.io', 'widewail',
+)
+
+_FACEBOOK_SHARE_PATTERNS = (
+    'sharer', 'share', 'dialog/feed', 'intent/tweet', 'intent/share',
+    '#', 'javascript:',
+)
+
 # ─── Helper ──────────────────────────────────────────────────────────────────
 
 def _pts(check_key: str) -> Tuple[float, str]:
@@ -102,6 +112,8 @@ class WebsiteSEOChecker:
         self._check_footer_nap(cat, soup, audit)
         self._check_city_page(cat, audit)
         self._check_housecall_pro(cat, soup, audit)
+        self._check_maps_embed(cat, soup)
+        self._check_facebook_page(cat, soup)
 
         return cat
 
@@ -1022,3 +1034,104 @@ class WebsiteSEOChecker:
                     "(e.g., 'Book Online Now') on your homepage."
                 ),
             )
+
+    # ── Google Maps / Reviews Embed ────────────────────────────────────────
+
+    def _check_maps_embed(self, cat: CategoryResult, soup: BeautifulSoup):
+        """Check for a Google Maps iframe, Maps link, or embedded review widget."""
+        pts, pri = _pts('maps_embed')
+
+        for iframe in soup.find_all('iframe', src=True):
+            src = iframe['src'].lower()
+            if 'maps.google.com' in src or 'google.com/maps' in src:
+                cat.add(
+                    name='Maps / Reviews Embed', status='pass', priority=pri,
+                    points_earned=pts, points_possible=pts,
+                    value='Google Maps iframe',
+                    detail='An embedded Google Maps iframe was found on the homepage, providing a strong local trust and engagement signal.',
+                )
+                return
+        for a in soup.find_all('a', href=True):
+            href = a['href'].lower()
+            if ('maps.google.com' in href or 'google.com/maps' in href) and 'share' not in href:
+                cat.add(
+                    name='Maps / Reviews Embed', status='pass', priority=pri,
+                    points_earned=pts, points_possible=pts,
+                    value='Google Maps link',
+                    detail='A Google Maps link was found on the homepage.',
+                )
+                return
+
+        # 3. Embedded review widgets (Birdeye, Podium, GatherUp, Trustpilot, etc.)
+        review_widget_patterns = [
+            'birdeye', 'podium.com', 'gatherup', 'grade.us',
+            'reviewwave', 'trustpilot', 'reviews.io', 'widewail',
+        ]
+        raw_html_lower = str(soup).lower()
+        for pattern in review_widget_patterns:
+            if pattern in raw_html_lower:
+                cat.add(
+                    name='Maps / Reviews Embed', status='pass', priority=pri,
+                    points_earned=pts, points_possible=pts,
+                    value=f'{pattern} widget',
+                    detail=f'An embedded review widget ({pattern}) was detected on the homepage.',
+                )
+                return
+
+        cat.add(
+            name='Maps / Reviews Embed', status='fail', priority=pri,
+            points_earned=0, points_possible=pts,
+            value='(not found)',
+            detail='No Google Maps embed or review widget was found on the homepage.',
+            recommendation=(
+                '📍 LOCAL TRUST SIGNAL OPPORTUNITY: Your homepage does not include a Google Maps embed or a review widget. '
+                'Embedding a Google Map pinned to your business location provides a clear visual trust signal and reinforces your '
+                'local presence to both visitors and search crawlers. Consider adding a Google Maps iframe via Google My Business '
+                '"Share" → "Embed a map", or integrate a review widget (such as Birdeye or Podium) to display live Google reviews '
+                'directly on the page — increasing credibility and local conversion rates.'
+            ),
+        )
+
+    # ── Facebook Page Link ─────────────────────────────────────────────────
+
+    def _check_facebook_page(self, cat: CategoryResult, soup: BeautifulSoup):
+        """Check for a Facebook page link (excluding share/sharer buttons)."""
+        pts, pri = _pts('facebook_page')
+
+        # Patterns that indicate a share button rather than a page link
+        _share_patterns = ('sharer', 'share', 'dialog/feed', 'intent/tweet',
+                           'intent/share', '#', 'javascript:')
+
+        for a in soup.find_all('a', href=True):
+            href = a['href']
+            href_lower = href.lower()
+            if 'facebook.com' not in href_lower:
+                continue
+            # Skip share / sharer buttons
+            if any(p in href_lower for p in _share_patterns):
+                continue
+            # Must be a real page path (facebook.com/<something>)
+            parsed = urlparse(href)
+            path = parsed.path.strip('/')
+            if path:  # non-empty path → actual page, not bare domain
+                cat.add(
+                    name='Facebook Page Link', status='pass', priority=pri,
+                    points_earned=pts, points_possible=pts,
+                    value=href[:80],
+                    detail='A Facebook page link was found on the homepage, connecting the site to the brand\'s social presence.',
+                )
+                return
+
+        cat.add(
+            name='Facebook Page Link', status='warn', priority=pri,
+            points_earned=0, points_possible=pts,
+            value='(not found)',
+            detail='No Facebook page link was detected on the homepage.',
+            recommendation=(
+                '📘 SOCIAL PRESENCE RECOMMENDATION: No Facebook page link was found on the homepage. '
+                'Linking to your active Facebook Business Page strengthens social trust signals and gives visitors a '
+                'convenient path to read reviews and stay connected. Add a Facebook icon link in the header or footer '
+                'pointing to your franchise\'s official Facebook page.'
+            ),
+        )
+

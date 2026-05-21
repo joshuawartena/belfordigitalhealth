@@ -64,6 +64,8 @@ WEBSITE_SEO_POINTS = {
     'footer_nap':           (5, 'high'),
     'city_page':            (5, 'high'),
     'housecall_pro':        (4, 'medium'),
+    'maps_embed':           (3, 'medium'),
+    'facebook_page':        (2, 'low'),
 }
 
 TITLE_MIN_CHARS = 50

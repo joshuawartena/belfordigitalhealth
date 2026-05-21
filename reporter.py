@@ -416,7 +416,7 @@ def generate_html_report(audit: AuditResult, output_path: str) -> str:
         )
 
         os.makedirs(os.path.dirname(output_path) or '.', exist_ok=True)
-        Path(output_path).write_text(html, encoding='utf-8')
+        Path(output_path).write_text(html, encoding='utf-8', errors='replace')
         logger.info('HTML report written → %s', output_path)
         return output_path
 
@@ -505,8 +505,8 @@ def generate_json_report(audit: AuditResult, output_path: str) -> str:
         data = _audit_to_dict(audit)
         os.makedirs(os.path.dirname(output_path) or '.', exist_ok=True)
         Path(output_path).write_text(
-            json.dumps(data, indent=2, ensure_ascii=False), encoding='utf-8',
-        )
+        json.dumps(data, indent=2, ensure_ascii=False), encoding='utf-8', errors='replace',
+    )
         logger.info('JSON report written → %s', output_path)
         return output_path
 
