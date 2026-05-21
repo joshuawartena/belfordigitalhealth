@@ -35,6 +35,16 @@ from config import (
 
 log = logging.getLogger('audit')
 
+_CLEANING_API_TYPES: dict = {
+    'carpet_cleaning_service': 'Carpet Cleaning Service',
+    'laundry': 'Laundry (raw API type)',
+    'laundry_service': 'Laundry Service (raw API type)',
+    'dry_cleaning': 'Dry Cleaning',
+    'house_cleaning_service': 'House Cleaning Service',
+    'janitorial_service': 'Janitorial Service',
+    'upholstery_cleaning_service': 'Upholstery Cleaning Service',
+}
+
 # ─── Helpers ──────────────────────────────────────────────────────────────────
 
 def _pts(check_key: str) -> Tuple[float, str]:
@@ -464,7 +474,7 @@ class GBPChecker:
         if address:
             has_street_address = bool(re.search(r'\b\d+\s+[A-Za-z0-9]', address))
 
-        if not address or (not has_street_address and is_service_category):
+        if (not address or not has_street_address) and is_service_category:
             # Perfect pass for a correctly configured Service Area Business (SAB)!
             cat.add(
                 name='Address Complete', status='pass', priority=pri,
@@ -702,7 +712,7 @@ class GBPChecker:
                 name='Primary Category', status='pass', priority=pri,
                 points_earned=pts, points_possible=pts,
                 value=label,
-                detail=f'Primary category is set: "{label}".',
+                detail=f'Primary category is set: "{detail_label}".',
             )
         else:
             cat.add(
@@ -765,7 +775,9 @@ class GBPChecker:
         elif isinstance(type_display, str):
             display_name = type_display
 
-        label = display_name or primary_type  # human-readable label for messages
+        friendly = display_name or _CLEANING_API_TYPES.get(primary_type, '')
+        label = friendly or primary_type
+        detail_label = f'{label} (raw type: {primary_type})' if primary_type and label != primary_type else label
 
         if not primary_type:
             cat.add(
