@@ -130,6 +130,15 @@ GBP_EXPECTED_CATEGORIES = {
     'belfor':    'fire_damage_restoration_service',
 }
 
+GBP_CATEGORY_LABELS = {
+    'laundry':                                    'Carpet Cleaning Service',
+    'flooring_contractor':                        'Flooring Contractor',
+    'commercial_kitchen_exhaust_hood_cleaning':   'Commercial Kitchen Hood Cleaning',
+    'air_duct_cleaning':                          'Air Duct Cleaning',
+    'dumpster_rental':                            'Dumpster Rental',
+    'fire_damage_restoration_service':            'Fire Damage Restoration Service',
+}
+
 # ── HTTP Settings ────────────────────────────────────────────────────────────
 REQUEST_TIMEOUT = 15
 PSI_TIMEOUT = 60
