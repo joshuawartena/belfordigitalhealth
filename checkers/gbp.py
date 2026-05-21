@@ -726,7 +726,9 @@ class GBPChecker:
         elif isinstance(type_display, str):
             display_name = type_display
 
-        label = display_name or primary_type
+        friendly = display_name or _CLEANING_API_TYPES.get(primary_type, '')
+        label = friendly or primary_type
+        detail_label = f'{label} (raw type: {primary_type})' if primary_type and label != primary_type else label
 
         if primary_type:
             cat.add(
