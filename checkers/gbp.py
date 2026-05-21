@@ -816,11 +816,20 @@ class GBPChecker:
             )
             return
 
-        # 3. Compare primaryType (API machine value) against expected
+        # 3. Compare against both API machine type and human-readable display name.
+        # The Places API often returns a broad internal type (e.g. "laundry") while
+        # the GBP dashboard shows a specific display name ("Carpet cleaning service").
         norm_expected = expected.lower().strip()
         norm_type = primary_type.lower().strip()
+        norm_display = display_name.lower().strip()
 
-        if norm_type == norm_expected:
+        exact_match = (norm_type == norm_expected or norm_display == norm_expected)
+        partial_match = (
+            norm_expected in norm_type or norm_type in norm_expected or
+            norm_expected in norm_display or norm_display in norm_expected
+        )
+
+        if exact_match:
             cat.add(
                 name='Category Match', status='pass', priority=pri,
                 points_earned=pts, points_possible=pts,
@@ -830,8 +839,7 @@ class GBPChecker:
                     f'category for {detected_brand or "this brand"}.'
                 ),
             )
-        elif norm_expected in norm_type or norm_type in norm_expected:
-            # Partial match
+        elif partial_match:
             cat.add(
                 name='Category Match', status='warn', priority=pri,
                 points_earned=round(pts * 0.5, 1), points_possible=pts,
