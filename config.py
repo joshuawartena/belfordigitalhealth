@@ -120,8 +120,8 @@ GBP_PHOTOS_MIN = 3
 # The checker auto-detects the brand from domain/business_name and looks up the expected type.
 # CSV 'expected_category' column can override this per-franchisee if needed.
 GBP_EXPECTED_CATEGORIES = {
-    'chem-dry':   'carpet cleaning service',
-    'chemdry':    'carpet cleaning service',
+    'chem-dry':   'laundry',
+    'chemdry':    'laundry',
     'n-hance':    'flooring_contractor',
     'nhance':     'flooring_contractor',
     'hoodz':     'commercial_kitchen_exhaust_hood_cleaning',
