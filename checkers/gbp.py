@@ -20,6 +20,7 @@ import requests
 
 from checkers import AuditResult, CategoryResult
 from config import (
+    GBP_CATEGORY_LABELS,
     GBP_EXPECTED_CATEGORIES,
     GBP_PHOTOS_MIN,
     GBP_POINTS,
