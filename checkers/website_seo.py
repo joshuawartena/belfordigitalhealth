@@ -435,7 +435,7 @@ class WebsiteSEOChecker:
             )
             return
 
-        href = canonical['href'].strip().rstrip('/')
+        href = urljoin(final_url, canonical['href'].strip()).rstrip('/')
         normalized_final = final_url.strip().rstrip('/')
 
         if href.lower() == normalized_final.lower():
