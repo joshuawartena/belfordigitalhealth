@@ -251,6 +251,17 @@ def _audit_to_dict(audit: AuditResult) -> dict:
     return data
 
 
+def _sanitize_surrogates(obj):
+    """Recursively replace surrogate characters in strings so json.dump doesn't crash."""
+    if isinstance(obj, str):
+        return obj.encode('utf-8', errors='replace').decode('utf-8')
+    if isinstance(obj, dict):
+        return {k: _sanitize_surrogates(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_sanitize_surrogates(item) for item in obj]
+    return obj
+    
+
 def save_json_report(audit: AuditResult, output_dir: Path) -> Path:
     """Save a single audit result as a JSON file.
 
@@ -263,8 +274,9 @@ def save_json_report(audit: AuditResult, output_dir: Path) -> Path:
     """
     filename = f"{audit.domain.replace('.', '_')}_report.json"
     filepath = output_dir / filename
-    with open(filepath, 'w', encoding='utf-8') as f:
-        json.dump(_audit_to_dict(audit), f, indent=2, ensure_ascii=False)
+    data = _sanitize_surrogates(_audit_to_dict(audit))   # ← add this line
+    with open(filepath, 'w', encoding='utf-8', errors='replace') as f:   # ← add errors='replace'
+        json.dump(data, f, indent=2, ensure_ascii=False)
     logger.info("JSON report saved: %s", filepath)
     return filepath
 
