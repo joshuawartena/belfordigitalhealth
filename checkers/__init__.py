@@ -129,7 +129,7 @@ class AuditResult:
     @property
     def categories(self) -> List[CategoryResult]:
         """Return all non-None category results."""
-        return [c for c in [self.website_seo, self.pagespeed, self.gbp] if c]
+        return [c for c in [self.gbp, self.website_seo, self.pagespeed] if c]
 
     @property
     def all_checks(self) -> List[CheckResult]:
