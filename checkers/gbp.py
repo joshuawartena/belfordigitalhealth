@@ -374,7 +374,7 @@ class GBPChecker:
                 detail=f'GBP name "{display_name}" matches the expected name "{expected_name}".',
             )
         # Close match — one contains the other (e.g. "Forks Chem-Dry" vs "Forks Chem-Dry Carpet Cleaning")
-                # Close match — one contains the other (e.g. "Forks Chem-Dry" vs "Forks Chem-Dry Carpet Cleaning")
+         
         elif norm_expected in norm_display or norm_display in norm_expected:
             # Explicitly verify the brand keyword is present; "Forks" must not pass as close to "Forks Chem-Dry"
             brand_terms = ['chemdry', 'chem dry']
@@ -765,7 +765,15 @@ class GBPChecker:
         # 1. Determine expected category — CSV override first, then auto-detect from brand
         expected = (audit.expected_category or '').strip()
         detected_brand = ''
-
+        
+        # If the CSV supplied a human-readable label (e.g. "Carpet Cleaning Service")
+        # instead of an API type (e.g. "laundry"), convert it via reverse lookup.
+        if expected and expected not in GBP_EXPECTED_CATEGORIES.values():
+            _reverse = {v.lower(): k_type for k_type, v in GBP_CATEGORY_LABELS.items()}
+            _api_type = _reverse.get(expected.lower())
+            if _api_type:
+                expected = _api_type
+        
         if not expected:
             # Auto-detect brand from domain and business name
             search_text = f"{audit.domain} {audit.business_name} {audit.name}".lower()
@@ -830,14 +838,18 @@ class GBPChecker:
             norm_expected in norm_display or norm_display in norm_expected
         )
 
+
+        # Human-readable label for expected category (e.g. 'laundry' → 'Carpet Cleaning Service')
+        expected_label = GBP_CATEGORY_LABELS.get(expected, expected.replace('_', ' ').title())
+
         if exact_match:
             cat.add(
                 name='Category Match', status='pass', priority=pri,
                 points_earned=pts, points_possible=pts,
-                value=label,
+                value=expected_label,
                 detail=(
-                    f'GBP primary category "{label}" (type: {primary_type}) matches the expected '
-                    f'category for {detected_brand or "this brand"}.'
+                    f'GBP primary category matches the expected "{expected_label}" '
+                    f'for {detected_brand or "this brand"}.'
                 ),
             )
         elif partial_match:
@@ -846,12 +858,14 @@ class GBPChecker:
                 points_earned=round(pts * 0.5, 1), points_possible=pts,
                 value=label,
                 detail=(
-                    f'GBP primary category "{label}" (type: {primary_type}) is a partial match '
-                    f'to expected "{expected}".'
+                    f'GBP primary category "{label}" is a partial match '
+                    f'to expected "{expected_label}".'
                 ),
+
+
                 recommendation=(
                     f"\ud83c\udff7\ufe0f CATEGORY REFINEMENT: Your GBP primary category is '{label}' (type: {primary_type}), "
-                    f"which partially matches the expected '{expected}'. Verify that the exact category is "
+                    f"which partially matches the expected '{expected_label}'. Verify that the exact category is "
                     "available in Google's category list and update if so - precision in category selection "
                     "directly impacts which search queries your listing appears for."
                 ),
@@ -863,18 +877,17 @@ class GBPChecker:
                 value=label,
                 detail=(
                     f'GBP primary category "{label}" (type: {primary_type}) does NOT match '
-                    f'expected "{expected}" for {detected_brand or "this brand"}.'
+                    f'expected "{expected_label}" for {detected_brand or "this brand"}.'
                 ),
                 recommendation=(
                     f"\ud83d\udea8 CRITICAL CATEGORY MISMATCH: Your GBP primary category is '{label}', but the expected "
-                    f"category for this franchise brand is '{expected}'. This is a major red flag - an incorrect "
+                    f"category for this franchise brand is '{expected_label}'. This is a major red flag - an incorrect "
                     "primary category means Google is showing your listing for the WRONG types of searches. "
                     f"Log in to your GBP dashboard immediately and change the primary category to match "
-                    f"'{expected}'. You may keep '{label}' as a secondary category if relevant."
+                    f"'{expected_label}'. You may keep '{label}' as a secondary category if relevant."
                 ),
             )
 
-       
 
     def _check_nap_consistency(self, cat: CategoryResult, place: dict, audit: AuditResult):
         """Check that Name, Address, and Phone (NAP) are consistent between GBP and the audit reference sheet."""
