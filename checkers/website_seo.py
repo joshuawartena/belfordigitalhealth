@@ -1042,9 +1042,9 @@ class WebsiteSEOChecker:
         pts, pri = _pts('maps_embed')
 
         for iframe in soup.find_all('iframe'):
-    src = (iframe.get('src') or iframe.get('data-src') or '').lower()
-    if not src:
-        continue
+            src = (iframe.get('src') or iframe.get('data-src') or '').lower()
+            if not src:
+                continue
             if 'maps.google.com' in src or 'google.com/maps' in src:
                 cat.add(
                     name='Maps / Reviews Embed', status='pass', priority=pri,
