@@ -735,7 +735,7 @@ class GBPChecker:
             cat.add(
                 name='Primary Category', status='pass', priority=pri,
                 points_earned=pts, points_possible=pts,
-                value=label,
+                value=GBP_CATEGORY_LABELS.get(primary_type, label),
                 detail=f'Primary category is set: "{detail_label}".',
             )
         else:
