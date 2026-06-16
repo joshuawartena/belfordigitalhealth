@@ -332,7 +332,7 @@ a:hover { text-decoration: underline; }
             <span class="priority-badge" style="background:{{ priority_color(rec.priority) }}">{{ rec.priority }}</span>
             <div class="rec-body">
                 <div class="check-name">{{ rec.name }}</div>
-                <div class="rec-text">{{ rec.recommendation }}</div>
+                <div class="rec-text">{{ rec.recommendation | e }}</div>
             </div>
         </li>
     {% endfor %}
@@ -370,7 +370,7 @@ a:hover { text-decoration: underline; }
                     <div>{{ c.detail or '—' }}</div>
                     {% if c.recommendation %}
                     <div style="margin-top: 6px; font-size: 12px; font-weight: 500; color: #4a3e3d; background: rgba(0, 0, 0, 0.02); padding: 6px; border-left: 2px solid #8A7967; border-radius: 2px;">
-                        <strong>Recommendation:</strong> {{ c.recommendation }}
+                        <strong>Recommendation:</strong> {{ c.recommendation | e }}
                     </div>
                     {% endif %}
                 </td>
