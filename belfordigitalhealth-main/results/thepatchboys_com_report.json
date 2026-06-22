@@ -1,0 +1,504 @@
+{
+  "name": "The Patch Boys of Nashville",
+  "domain": "thepatchboys.com",
+  "url": "https://www.thepatchboys.com/nashville/",
+  "city": "Nashville",
+  "state": "TN",
+  "phone": "629-230-9066",
+  "address": "Mount Juliet",
+  "zip_code": "37122",
+  "owner": "",
+  "place_id": "ChIJn3bGGpw_ZIgRGClN_Uj6yCY",
+  "gbp_url": "https://maps.app.goo.gl/PDhwRb1uw59aB6vo7",
+  "business_name": "The Patch Boys of Nashville",
+  "audited_at": "2026-06-17T17:38:19.442778+00:00",
+  "http_status": 200,
+  "error": "",
+  "total_score": 79.2,
+  "grade": "B",
+  "grade_label": "Good — minor improvements needed",
+  "grade_color": "#84cc16",
+  "website_seo": {
+    "name": "Website SEO",
+    "score": 81.8,
+    "earned": 72.0,
+    "possible": 88.0,
+    "pass_count": 18,
+    "fail_count": 2,
+    "warn_count": 5,
+    "checks": [
+      {
+        "name": "SSL / HTTPS",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "HTTPS",
+        "detail": "Site loads securely over HTTPS, preserving user trust and satisfying a core search engine ranking requirement.",
+        "recommendation": ""
+      },
+      {
+        "name": "Title Tag",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "Drywall Repair Mount Juliet TN | Expert Drywall Contractors",
+        "detail": "Title tag is present in the HTML head.",
+        "recommendation": ""
+      },
+      {
+        "name": "Title Length",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "59 chars",
+        "detail": "Title length (59 characters) is within the optimal search display range (50–60 characters).",
+        "recommendation": ""
+      },
+      {
+        "name": "City in Title",
+        "status": "fail",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 3,
+        "value": "(missing)",
+        "detail": "City \"Nashville\" was not found in the title tag.",
+        "recommendation": "📍 LOCAL SEARCH OPTIMIZATION ACTION: Your title tag does not contain your target city. For local franchise businesses, incorporating the primary service area in the title is absolutely paramount for ranking in local search results. Update the title tag to explicitly include your city name (e.g., \"Carpet Cleaning in Nashville\") to signal strong local relevance to search crawlers."
+      },
+      {
+        "name": "Brand in Title",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.0,
+        "points_possible": 2,
+        "value": "(missing)",
+        "detail": "Brand name \"Chem-Dry\" not found in the title tag.",
+        "recommendation": "🏷️ BRAND CITATION RECOMMENDATION: The franchise brand name is missing from the homepage title tag. Including \"Chem-Dry\" establishes consumer trust, leverages national advertising campaigns, and builds local brand equity. Append \" | Chem-Dry\" or similar approved brand styling to the end of the title tag to align with national brand standards."
+      },
+      {
+        "name": "Meta Description",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "Drywall & Sheetrock Repair, Popcorn Ceiling Removal, Texture Matching, Plaster R…",
+        "detail": "Meta description is present in the HTML head.",
+        "recommendation": ""
+      },
+      {
+        "name": "Meta Description Length",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "140 chars",
+        "detail": "Meta description length (140 characters) is within the recommended search range (120–160 characters).",
+        "recommendation": ""
+      },
+      {
+        "name": "Meta Description CTA",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 2,
+        "points_possible": 2,
+        "value": "Yes",
+        "detail": "Meta description contains a clear call-to-action keyword.",
+        "recommendation": ""
+      },
+      {
+        "name": "H1 Tag",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "Your LocalDrywall Repair Experts",
+        "detail": "Exactly one H1 tag is present on the page, serving as the main topical heading.",
+        "recommendation": ""
+      },
+      {
+        "name": "H1 Service Keyword",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.5,
+        "points_possible": 3,
+        "value": "(none)",
+        "detail": "The <h1> tag does not contain a primary service keyword.",
+        "recommendation": "🔍 HEADLINE OPTIMIZATION: The primary <h1> tag does not contain any core service keywords (such as \"carpet\", \"cleaning\", \"upholstery\", or \"rug\"). An H1 must clearly declare the main services offered. Rewrite the <h1> to seamlessly include a high-volume search term (e.g., \"Your Healthier Carpet Cleaning Choice in [City]\") to boost keyword ranking relevance."
+      },
+      {
+        "name": "Heading Hierarchy",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 2,
+        "points_possible": 2,
+        "value": "26 headings",
+        "detail": "Heading hierarchy is fully sequential and correct (no levels are skipped and H1 comes first).",
+        "recommendation": ""
+      },
+      {
+        "name": "Canonical Tag",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "https://www.thepatchboys.com/nashville",
+        "detail": "Canonical tag matches the active homepage URL, protecting from duplicate indexing issues.",
+        "recommendation": ""
+      },
+      {
+        "name": "Viewport Meta",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "width=device-width, initial-scale=1, minimum-scale=1, maximu",
+        "detail": "Viewport meta tag is present, enabling mobile device optimization.",
+        "recommendation": ""
+      },
+      {
+        "name": "robots.txt",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.0,
+        "points_possible": 2,
+        "value": "HTTP 404",
+        "detail": "robots.txt returned HTTP status code 404 or is completely missing.",
+        "recommendation": "🤖 CRAWLER GUIDANCE ACTION: The robots.txt file was not found or returned a server error. Search engine bots require a robots.txt file at the root directory of your site to understand which sections to crawl and which to ignore. Create and upload a plain text `robots.txt` file (specifying standard access rules and the path to your XML sitemap) to improve crawling efficiency."
+      },
+      {
+        "name": "XML Sitemap",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "https://www.thepatchboys.com/nashville/sitemap.xml",
+        "detail": "XML sitemap is present and accessible.",
+        "recommendation": ""
+      },
+      {
+        "name": "Schema / JSON-LD",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "unknown, HomeAndConstructionBusiness",
+        "detail": "Found 2 JSON-LD schema block(s) in the HTML source.",
+        "recommendation": ""
+      },
+      {
+        "name": "LocalBusiness Schema",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "Yes",
+        "detail": "LocalBusiness (or specific CleaningService) schema type is present.",
+        "recommendation": ""
+      },
+      {
+        "name": "Open Graph Tags",
+        "status": "pass",
+        "priority": "low",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "og:title, og:description, og:image",
+        "detail": "All required Open Graph tags (og:title, og:description, og:image) are properly configured in the HTML head.",
+        "recommendation": ""
+      },
+      {
+        "name": "Image Alt Text",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 2.0,
+        "points_possible": 4,
+        "value": "1/33 missing alt",
+        "detail": "1 out of 33 images are missing alternative text (alt attributes).",
+        "recommendation": "🖼️ IMAGE ACCESSIBILITY RECOMMENDATION: Several images on the homepage are missing \"alt\" attributes. Alt text serves two critical purposes: it allows screen readers for visually impaired users to understand the image, and it enables search engines to index your images in Google Image Search. Audit all <img> tags and add descriptive, keyword-rich alt text to each."
+      },
+      {
+        "name": "Image File Naming",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "4/33 generic",
+        "detail": "Only 12.1% of homepage images use unoptimized or generic filenames, which is well within best practices.",
+        "recommendation": ""
+      },
+      {
+        "name": "Internal Links",
+        "status": "pass",
+        "priority": "low",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "73 links",
+        "detail": "Found 73 internal links, establishing strong crawl paths for search crawlers.",
+        "recommendation": ""
+      },
+      {
+        "name": "Footer NAP",
+        "status": "warn",
+        "priority": "high",
+        "points_earned": 2.5,
+        "points_possible": 5,
+        "value": "Missing: Name",
+        "detail": "Incomplete footer NAP block. Missing elements: Name.",
+        "recommendation": "👣 CITATION COMPLETENESS ACTION: Your website footer contains incomplete Name, Address, and Phone (NAP) details. A local business's footer must display a complete and exact match of its NAP details to serve as a persistent local citation. Add the missing elements (Business Name, Address, and/or Phone) to the footer to build solid local search authority."
+      },
+      {
+        "name": "City Page",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "(not found)",
+        "detail": "No active landing page was found under common URL paths for city \"Nashville\".",
+        "recommendation": "📍 LOCAL TARGETING OPPORTUNITY: No dedicated local city page was found (such as /nashville). Creating a dedicated service page for your primary city is a highly effective strategy to capture high-intent local search traffic. Develop a high-quality local page featuring localized service text, customer reviews from the area, a local phone number, and a map embed to capture regional customers."
+      },
+      {
+        "name": "HouseCall Pro Integration",
+        "status": "skip",
+        "priority": "medium",
+        "points_earned": 0.0,
+        "points_possible": 0.0,
+        "value": "(not applicable)",
+        "detail": "HouseCall Pro booking check is skipped because this is not a Chem-Dry franchise (opt-in for other brands).",
+        "recommendation": ""
+      },
+      {
+        "name": "Maps / Reviews Embed",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "Google Maps iframe",
+        "detail": "An embedded Google Maps iframe was found on the homepage, providing a strong local trust and engagement signal.",
+        "recommendation": ""
+      },
+      {
+        "name": "Facebook Page Link",
+        "status": "pass",
+        "priority": "low",
+        "points_earned": 2,
+        "points_possible": 2,
+        "value": "https://www.facebook.com/profile.php?id=100067391178863",
+        "detail": "A Facebook page link was found on the homepage, connecting the site to the brand's social presence.",
+        "recommendation": ""
+      }
+    ]
+  },
+  "pagespeed": {
+    "name": "PageSpeed Insights",
+    "score": 56.4,
+    "earned": 22.57,
+    "possible": 40,
+    "pass_count": 2,
+    "fail_count": 3,
+    "warn_count": 2,
+    "checks": [
+      {
+        "name": "Performance (Mobile)",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 4.4,
+        "points_possible": 10,
+        "value": "44/100",
+        "detail": "Mobile performance score: 44/100.",
+        "recommendation": "Your Mobile performance score is currently 44/100, which is critically low and severely harms your search engine rankings and conversion rates. Search engines like Google penalize slow-loading sites, especially on mobile devices where network speeds are slower. To resolve this, you must prioritize optimizing your site's assets: (1) Optimize and compress all images using next-gen formats like WebP or AVIF; (2) Defer or minify unused JavaScript and CSS files that block the browser from rendering the page quickly; (3) Leverage browser caching and utilize a Content Delivery Network (CDN) to serve assets faster."
+      },
+      {
+        "name": "Performance (Desktop)",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 5.52,
+        "points_possible": 8,
+        "value": "69/100",
+        "detail": "Desktop performance score: 69/100.",
+        "recommendation": "Your Desktop performance score is 69/100. While your site is functional, it has noticeable latency that could cause visitors to bounce before the page fully loads. We strongly recommend implementing the following optimizations to achieve an excellent score: (1) Defer non-essential scripts (like tracking codes or chatbots) so they only load after the main content; (2) Set explicit width and height attributes on all images and containers to prevent layout shifts; (3) Utilize modern lazy-loading for all below-the-fold images to save initial bandwidth."
+      },
+      {
+        "name": "LCP (Largest Contentful Paint)",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "19.04s",
+        "detail": "LCP is 19.04s (threshold: ≤ 2.5s).",
+        "recommendation": "Your Largest Contentful Paint (LCP) is 19.04 seconds, which exceeds the recommended threshold of 2.5s. LCP measures when the main, largest piece of content on your screen (usually a hero banner, large heading, or primary image) becomes visible. A slow LCP makes the page feel laggy and unresponsive to users. To speed up LCP: (1) Preload your primary hero image or main banner image in the HTML header (using <link rel='preload'>) so it starts downloading immediately; (2) Eliminate or defer render-blocking JavaScript and CSS files that delay page construction; (3) Optimize server response times and database queries so the server sends the HTML document faster; (4) Ensure your web server has Gzip or Brotli compression enabled and utilizes modern image formats like WebP."
+      },
+      {
+        "name": "CLS (Cumulative Layout Shift)",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "0",
+        "detail": "CLS is 0 (good ≤ 0.1).",
+        "recommendation": ""
+      },
+      {
+        "name": "TBT (Total Blocking Time)",
+        "status": "fail",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 3,
+        "value": "486ms",
+        "detail": "TBT is 486ms (threshold: ≤ 200ms).",
+        "recommendation": "Your Total Blocking Time (TBT) is 486ms, which exceeds the recommended limit of 200ms. TBT acts as a direct proxy for Google's Interaction to Next Paint (INP) metric, measuring how long the page is unresponsive to user inputs (like clicks or keyboard taps) during load. To resolve this: (1) Split long-running JavaScript tasks (anything over 50ms) into smaller chunks using setTimeout or requestIdleCallback; (2) Remove unused or duplicate JavaScript libraries from your bundle; (3) Audit and defer heavy third-party tracking scripts (such as heatmaps, analytics, or complex chat widgets) until after the page is fully interactive."
+      },
+      {
+        "name": "Accessibility Score",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 4.05,
+        "points_possible": 5,
+        "value": "81/100",
+        "detail": "Lighthouse accessibility score: 81/100.",
+        "recommendation": "Your accessibility score is 81/100. Your site is mostly usable but contains minor compliance issues that should be addressed to provide a seamless experience for all visitors: (1) Review contrast ratios on form labels and footer links; (2) Ensure heading elements (H1, H2, H3) are nested in strict logical order; (3) Add form field labels that are explicitly associated with their input elements."
+      },
+      {
+        "name": "SEO (Lighthouse)",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 4.6,
+        "points_possible": 5,
+        "value": "92/100",
+        "detail": "Lighthouse SEO score: 92/100.",
+        "recommendation": ""
+      }
+    ]
+  },
+  "gbp": {
+    "name": "Google Business Profile",
+    "score": 88.0,
+    "earned": 44.0,
+    "possible": 50,
+    "pass_count": 10,
+    "fail_count": 1,
+    "warn_count": 1,
+    "checks": [
+      {
+        "name": "Listing Found",
+        "status": "pass",
+        "priority": "critical",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "ChIJn3bGGpw_ZIgRGClN_Uj6yCY",
+        "detail": "GBP listing found (place_id: ChIJn3bGGpw_ZIgRGClN_Uj6yCY).",
+        "recommendation": ""
+      },
+      {
+        "name": "Name Match",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "The Patch Boys of Nashville",
+        "detail": "GBP name \"The Patch Boys of Nashville\" matches the expected name \"The Patch Boys of Nashville\".",
+        "recommendation": ""
+      },
+      {
+        "name": "Phone Present",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "(629) 230-7799",
+        "detail": "Phone number is set on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Website Set",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "https://www.thepatchboys.com/nashville/?utm_campaign=gbp",
+        "detail": "Website URL is set on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Address Complete",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "Service Area Business (SAB)",
+        "detail": "This Google Business Profile is properly configured as a Service Area Business (SAB). Its street address is hidden from the public to protect residential privacy, and its territory is defined by service area boundaries, which is the exact brand-compliant setup for mobile/on-site service franchisees.",
+        "recommendation": ""
+      },
+      {
+        "name": "Hours Set",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "1 period(s)",
+        "detail": "Business hours are configured on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Rating",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "5.0⭐",
+        "detail": "Rating is 5.0 (target ≥ 4.0).",
+        "recommendation": ""
+      },
+      {
+        "name": "Review Count",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "191 reviews",
+        "detail": "191 reviews (target ≥ 10).",
+        "recommendation": ""
+      },
+      {
+        "name": "Photos",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "10 photos",
+        "detail": "10 photos found (minimum 3).",
+        "recommendation": ""
+      },
+      {
+        "name": "Primary Category",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "General Contractor",
+        "detail": "Primary category is set: \"General Contractor (raw type: general_contractor)\".",
+        "recommendation": ""
+      },
+      {
+        "name": "Category Match",
+        "status": "fail",
+        "priority": "critical",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "General Contractor",
+        "detail": "GBP primary category \"General Contractor\" (type: general_contractor) does NOT match expected \"Dry Wall Contractor\" for this brand.",
+        "recommendation": "CRITICAL CATEGORY MISMATCH: Your GBP primary category is 'General Contractor', but the expected category for this franchise brand is 'Dry Wall Contractor'. Log in to your GBP dashboard and change the primary category to 'Dry Wall Contractor'."
+      },
+      {
+        "name": "NAP Consistency",
+        "status": "warn",
+        "priority": "critical",
+        "points_earned": 3.0,
+        "points_possible": 4,
+        "value": "Phone Tracking / Mismatch",
+        "detail": "Phone mismatch detected: GBP primary number is (629) 230-7799 vs Reference 629-230-9066. Name and Address are fully consistent.",
+        "recommendation": "⚠️ IMPORTANT NOTE ON CALL-TRACKING: Many franchise owners use a local tracking number (such as CallRail) as their primary GBP number to measure incoming lead sources, while keeping their main office number on the website. If this is the case, it is a standard practice and is acceptable, BUT you must log in to your Google Business Profile dashboard and ensure your main office number (629-230-9066) is added as an 'Additional Phone' under the Contact options. This ensures search engines can still crawl and associate both numbers, preserving your local citation authority behind the scenes. If you are not using call-tracking, please update your GBP primary number to match your records."
+      }
+    ]
+  }
+}

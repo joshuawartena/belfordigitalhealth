@@ -1,0 +1,504 @@
+{
+  "name": "redbox+ of Greater Nashville",
+  "domain": "redboxplus.com",
+  "url": "https://www.redboxplus.com/greater-nashville/",
+  "city": "Nashville",
+  "state": "TN",
+  "phone": "615-606-7160",
+  "address": "5225 Beech Ridge Road",
+  "zip_code": "37221",
+  "owner": "Robert Vriend",
+  "place_id": "ChIJ-TGJj1CPZIgRsj5tNMG1Nzw",
+  "gbp_url": "https://maps.app.goo.gl/Lu8cpYtVTNVKvtB56",
+  "business_name": "redbox+ of Greater Nashville",
+  "audited_at": "2026-06-17T17:40:22.915837+00:00",
+  "http_status": 200,
+  "error": "",
+  "total_score": 64.2,
+  "grade": "C",
+  "grade_label": "Needs attention",
+  "grade_color": "#f59e0b",
+  "website_seo": {
+    "name": "Website SEO",
+    "score": 77.3,
+    "earned": 68.0,
+    "possible": 88.0,
+    "pass_count": 15,
+    "fail_count": 2,
+    "warn_count": 8,
+    "checks": [
+      {
+        "name": "SSL / HTTPS",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "HTTPS",
+        "detail": "Site loads securely over HTTPS, preserving user trust and satisfying a core search engine ranking requirement.",
+        "recommendation": ""
+      },
+      {
+        "name": "Title Tag",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "Nashville Dumpster for Rental | redbox+ Dumpsters",
+        "detail": "Title tag is present in the HTML head.",
+        "recommendation": ""
+      },
+      {
+        "name": "Title Length",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.5,
+        "points_possible": 3,
+        "value": "49 chars",
+        "detail": "Title tag is too short (49 characters, target is 50–60 characters).",
+        "recommendation": "📈 TITLE OPTIMIZATION OPPORTUNITY: The current title is too short, leaving valuable SEO real estate unused. Expand the title to between 50 and 60 characters by integrating primary local keywords (e.g., \"Upholstery & Carpet Cleaning\") along with your target city. This maximizes your ranking potential for multiple search terms while retaining a natural, human-friendly presentation."
+      },
+      {
+        "name": "City in Title",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "Nashville",
+        "detail": "City \"Nashville\" found in title, providing a strong local relevancy signal.",
+        "recommendation": ""
+      },
+      {
+        "name": "Brand in Title",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.0,
+        "points_possible": 2,
+        "value": "(missing)",
+        "detail": "Brand name \"Chem-Dry\" not found in the title tag.",
+        "recommendation": "🏷️ BRAND CITATION RECOMMENDATION: The franchise brand name is missing from the homepage title tag. Including \"Chem-Dry\" establishes consumer trust, leverages national advertising campaigns, and builds local brand equity. Append \" | Chem-Dry\" or similar approved brand styling to the end of the title tag to align with national brand standards."
+      },
+      {
+        "name": "Meta Description",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "Avoid wasted time and headaches while maintaining a clean and efficient job site…",
+        "detail": "Meta description is present in the HTML head.",
+        "recommendation": ""
+      },
+      {
+        "name": "Meta Description Length",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "138 chars",
+        "detail": "Meta description length (138 characters) is within the recommended search range (120–160 characters).",
+        "recommendation": ""
+      },
+      {
+        "name": "Meta Description CTA",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.0,
+        "points_possible": 2,
+        "value": "(none)",
+        "detail": "No high-impact call-to-action keyword was found in the meta description.",
+        "recommendation": "📞 CALL-TO-ACTION RECOMMENDATION: Your meta description lacks a strong call-to-action (CTA) keyword. A persuasive CTA keyword (such as \"Call today\", \"Schedule a free quote\", or \"Book online\") bridges the gap between searching and booking. Revise the description to include an active, enticing prompt that instructs the user on their next step."
+      },
+      {
+        "name": "H1 Tag",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "Roll-off Dumpster Rentalsin Nashville",
+        "detail": "Exactly one H1 tag is present on the page, serving as the main topical heading.",
+        "recommendation": ""
+      },
+      {
+        "name": "H1 Service Keyword",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.5,
+        "points_possible": 3,
+        "value": "(none)",
+        "detail": "The <h1> tag does not contain a primary service keyword.",
+        "recommendation": "🔍 HEADLINE OPTIMIZATION: The primary <h1> tag does not contain any core service keywords (such as \"carpet\", \"cleaning\", \"upholstery\", or \"rug\"). An H1 must clearly declare the main services offered. Rewrite the <h1> to seamlessly include a high-volume search term (e.g., \"Your Healthier Carpet Cleaning Choice in [City]\") to boost keyword ranking relevance."
+      },
+      {
+        "name": "Heading Hierarchy",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.0,
+        "points_possible": 2,
+        "value": "H1, H5, H4, H4, H4, H2, H3, H4",
+        "detail": "Heading hierarchy is broken because it skips levels (e.g., jumping from H1 directly to H3).",
+        "recommendation": "🏗️ SEQUENTIAL HEADING RECOMMENDATION: The heading hierarchy skips levels (for example, jumping from an H1 directly to an H3). Crawlers and screen readers rely on a strict sequential outline (H1 → H2 → H3) to map your page's structure. Adjust your HTML structure so that headings nest logically, ensuring a sequential hierarchy without skipping levels."
+      },
+      {
+        "name": "Canonical Tag",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "https://www.redboxplus.com/greater-nashville",
+        "detail": "Canonical tag matches the active homepage URL, protecting from duplicate indexing issues.",
+        "recommendation": ""
+      },
+      {
+        "name": "Viewport Meta",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "width=device-width, initial-scale=1, minimum-scale=1, maximu",
+        "detail": "Viewport meta tag is present, enabling mobile device optimization.",
+        "recommendation": ""
+      },
+      {
+        "name": "robots.txt",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.0,
+        "points_possible": 2,
+        "value": "HTTP 404",
+        "detail": "robots.txt returned HTTP status code 404 or is completely missing.",
+        "recommendation": "🤖 CRAWLER GUIDANCE ACTION: The robots.txt file was not found or returned a server error. Search engine bots require a robots.txt file at the root directory of your site to understand which sections to crawl and which to ignore. Create and upload a plain text `robots.txt` file (specifying standard access rules and the path to your XML sitemap) to improve crawling efficiency."
+      },
+      {
+        "name": "XML Sitemap",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "https://www.redboxplus.com/greater-nashville/sitemap.xml",
+        "detail": "XML sitemap is present and accessible.",
+        "recommendation": ""
+      },
+      {
+        "name": "Schema / JSON-LD",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "unknown, LocalBusiness",
+        "detail": "Found 2 JSON-LD schema block(s) in the HTML source.",
+        "recommendation": ""
+      },
+      {
+        "name": "LocalBusiness Schema",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "Yes",
+        "detail": "LocalBusiness (or specific CleaningService) schema type is present.",
+        "recommendation": ""
+      },
+      {
+        "name": "Open Graph Tags",
+        "status": "warn",
+        "priority": "low",
+        "points_earned": 1.5,
+        "points_possible": 3,
+        "value": "Missing: og:image",
+        "detail": "Partial Open Graph implementation detected. Missing tags: og:image.",
+        "recommendation": "📣 SOCIAL LINK PREVIEW RECOMMENDATION: Some Open Graph (OG) tags are missing from the page header. OG tags control how your website's link is displayed when shared on social media (Facebook, LinkedIn, etc.). Add the missing tags (og:image) to guarantee that your social shares look highly professional and drive clicks."
+      },
+      {
+        "name": "Image Alt Text",
+        "status": "fail",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 4,
+        "value": "15/18 missing alt",
+        "detail": "Crucial image alt text is missing on 15 out of 18 images.",
+        "recommendation": "🖼️ CRITICAL ACCESSIBILITY ACTION: The majority of images on the homepage are missing alt text. This is a significant accessibility violation and a missed opportunity to rank in image search results. You must immediately add descriptive, helpful alt text to all image tags, describing the service, location, or equipment shown (e.g., \"Chem-Dry technician cleaning upholstery in [City]\")."
+      },
+      {
+        "name": "Image File Naming",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "3/18 generic",
+        "detail": "Only 16.7% of homepage images use unoptimized or generic filenames, which is well within best practices.",
+        "recommendation": ""
+      },
+      {
+        "name": "Internal Links",
+        "status": "pass",
+        "priority": "low",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "83 links",
+        "detail": "Found 83 internal links, establishing strong crawl paths for search crawlers.",
+        "recommendation": ""
+      },
+      {
+        "name": "Footer NAP",
+        "status": "warn",
+        "priority": "high",
+        "points_earned": 2.5,
+        "points_possible": 5,
+        "value": "Missing: City/Address, Name",
+        "detail": "Incomplete footer NAP block. Missing elements: City/Address, Name.",
+        "recommendation": "👣 CITATION COMPLETENESS ACTION: Your website footer contains incomplete Name, Address, and Phone (NAP) details. A local business's footer must display a complete and exact match of its NAP details to serve as a persistent local citation. Add the missing elements (Business Name, Address, and/or Phone) to the footer to build solid local search authority."
+      },
+      {
+        "name": "City Page",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "(not found)",
+        "detail": "No active landing page was found under common URL paths for city \"Nashville\".",
+        "recommendation": "📍 LOCAL TARGETING OPPORTUNITY: No dedicated local city page was found (such as /nashville). Creating a dedicated service page for your primary city is a highly effective strategy to capture high-intent local search traffic. Develop a high-quality local page featuring localized service text, customer reviews from the area, a local phone number, and a map embed to capture regional customers."
+      },
+      {
+        "name": "HouseCall Pro Integration",
+        "status": "skip",
+        "priority": "medium",
+        "points_earned": 0.0,
+        "points_possible": 0.0,
+        "value": "(not applicable)",
+        "detail": "HouseCall Pro booking check is skipped because this is not a Chem-Dry franchise (opt-in for other brands).",
+        "recommendation": ""
+      },
+      {
+        "name": "Maps / Reviews Embed",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "Google Maps link",
+        "detail": "A Google Maps link was found on the homepage.",
+        "recommendation": ""
+      },
+      {
+        "name": "Facebook Page Link",
+        "status": "pass",
+        "priority": "low",
+        "points_earned": 2,
+        "points_possible": 2,
+        "value": "https://www.facebook.com/redboxplusnashville/",
+        "detail": "A Facebook page link was found on the homepage, connecting the site to the brand's social presence.",
+        "recommendation": ""
+      }
+    ]
+  },
+  "pagespeed": {
+    "name": "PageSpeed Insights",
+    "score": 44.5,
+    "earned": 17.79,
+    "possible": 40,
+    "pass_count": 2,
+    "fail_count": 2,
+    "warn_count": 2,
+    "checks": [
+      {
+        "name": "Performance (Mobile)",
+        "status": "error",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 10,
+        "value": "API error",
+        "detail": "Could not retrieve PageSpeed data for mobile.",
+        "recommendation": "Check internet connectivity or API rate limits and retry."
+      },
+      {
+        "name": "Performance (Desktop)",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 4.64,
+        "points_possible": 8,
+        "value": "58/100",
+        "detail": "Desktop performance score: 58/100.",
+        "recommendation": "Your Desktop performance score is 58/100. While your site is functional, it has noticeable latency that could cause visitors to bounce before the page fully loads. We strongly recommend implementing the following optimizations to achieve an excellent score: (1) Defer non-essential scripts (like tracking codes or chatbots) so they only load after the main content; (2) Set explicit width and height attributes on all images and containers to prevent layout shifts; (3) Utilize modern lazy-loading for all below-the-fold images to save initial bandwidth."
+      },
+      {
+        "name": "LCP (Largest Contentful Paint)",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "4.32s",
+        "detail": "LCP is 4.32s (threshold: ≤ 2.5s).",
+        "recommendation": "Your Largest Contentful Paint (LCP) is 4.32 seconds, which exceeds the recommended threshold of 2.5s. LCP measures when the main, largest piece of content on your screen (usually a hero banner, large heading, or primary image) becomes visible. A slow LCP makes the page feel laggy and unresponsive to users. To speed up LCP: (1) Preload your primary hero image or main banner image in the HTML header (using <link rel='preload'>) so it starts downloading immediately; (2) Eliminate or defer render-blocking JavaScript and CSS files that delay page construction; (3) Optimize server response times and database queries so the server sends the HTML document faster; (4) Ensure your web server has Gzip or Brotli compression enabled and utilizes modern image formats like WebP."
+      },
+      {
+        "name": "CLS (Cumulative Layout Shift)",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "0.012",
+        "detail": "CLS is 0.012 (good ≤ 0.1).",
+        "recommendation": ""
+      },
+      {
+        "name": "TBT (Total Blocking Time)",
+        "status": "fail",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 3,
+        "value": "298ms",
+        "detail": "TBT is 298ms (threshold: ≤ 200ms).",
+        "recommendation": "Your Total Blocking Time (TBT) is 298ms, which exceeds the recommended limit of 200ms. TBT acts as a direct proxy for Google's Interaction to Next Paint (INP) metric, measuring how long the page is unresponsive to user inputs (like clicks or keyboard taps) during load. To resolve this: (1) Split long-running JavaScript tasks (anything over 50ms) into smaller chunks using setTimeout or requestIdleCallback; (2) Remove unused or duplicate JavaScript libraries from your bundle; (3) Audit and defer heavy third-party tracking scripts (such as heatmaps, analytics, or complex chat widgets) until after the page is fully interactive."
+      },
+      {
+        "name": "Accessibility Score",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 4.15,
+        "points_possible": 5,
+        "value": "83/100",
+        "detail": "Lighthouse accessibility score: 83/100.",
+        "recommendation": "Your accessibility score is 83/100. Your site is mostly usable but contains minor compliance issues that should be addressed to provide a seamless experience for all visitors: (1) Review contrast ratios on form labels and footer links; (2) Ensure heading elements (H1, H2, H3) are nested in strict logical order; (3) Add form field labels that are explicitly associated with their input elements."
+      },
+      {
+        "name": "SEO (Lighthouse)",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 5.0,
+        "points_possible": 5,
+        "value": "100/100",
+        "detail": "Lighthouse SEO score: 100/100.",
+        "recommendation": ""
+      }
+    ]
+  },
+  "gbp": {
+    "name": "Google Business Profile",
+    "score": 61.0,
+    "earned": 30.5,
+    "possible": 50,
+    "pass_count": 7,
+    "fail_count": 4,
+    "warn_count": 1,
+    "checks": [
+      {
+        "name": "Listing Found",
+        "status": "pass",
+        "priority": "critical",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "ChIJ-TGJj1CPZIgRsj5tNMG1Nzw",
+        "detail": "GBP listing found (place_id: ChIJ-TGJj1CPZIgRsj5tNMG1Nzw).",
+        "recommendation": ""
+      },
+      {
+        "name": "Name Match",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 3,
+        "value": "redbox+ Dumpsters of Greater Nashville",
+        "detail": "GBP name \"redbox+ Dumpsters of Greater Nashville\" does not match expected name \"redbox+ of Greater Nashville\".",
+        "recommendation": "🏷️ CRITICAL NAME MISMATCH: The display name on your Google Business Profile is 'redbox+ Dumpsters of Greater Nashville', but the expected franchise name is 'redbox+ of Greater Nashville'. An incorrect GBP name is a critical local authority and trust issue - it leads to customer confusion, damages NAP citation consistency, and can violate national brand guidelines. Update the business display name in the GBP dashboard to exactly match 'redbox+ of Greater Nashville' in compliance with your franchise agreement."
+      },
+      {
+        "name": "Phone Present",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "(615) 908-4448",
+        "detail": "Phone number is set on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Website Set",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "http://www.redboxplus.com/greater-nashville",
+        "detail": "Website URL is set on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Address Complete",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "572 US-70, Pegram, TN 37143, USA",
+        "detail": "Formatted address is set on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Hours Set",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "5 period(s)",
+        "detail": "Business hours are configured on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Rating",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "(no rating)",
+        "detail": "No rating found on GBP listing.",
+        "recommendation": "⭐ ESTABLISH TRUST BARRIER: Your Google Business Profile has no active star rating. In the service industry, a star rating is the single most powerful conversion factor. Over 90% of customers consult online reviews before selecting a local cleaning service. Implement a proactive post-job review request system immediately. Ask every satisfied client to leave a star rating and descriptive feedback using your direct GBP review link to jumpstart your local prominence."
+      },
+      {
+        "name": "Review Count",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "0 reviews",
+        "detail": "No reviews found.",
+        "recommendation": "💬 REVIEW BUILDING CAMPAIGN: Your Google Business Profile has zero customer reviews. Listings with zero reviews rarely appear in the top 3 Map Pack results and convert at a fraction of established competitors. Launch a review acquisition campaign: send direct follow-up texts or emails with a direct link to your GBP review dashboard immediately after completing service, targeting your best clients first to build momentum."
+      },
+      {
+        "name": "Photos",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "6 photos",
+        "detail": "6 photos found (minimum 3).",
+        "recommendation": ""
+      },
+      {
+        "name": "Primary Category",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "Services",
+        "detail": "Primary category is set: \"Services (raw type: service)\".",
+        "recommendation": ""
+      },
+      {
+        "name": "Category Match",
+        "status": "warn",
+        "priority": "critical",
+        "points_earned": 2.5,
+        "points_possible": 5,
+        "value": "Services",
+        "detail": "Places API returned generic category \"Services\" — could not confirm expected \"Dumpster Rental\". Verify the GBP dashboard shows \"Dumpster Rental\" as the primary category.",
+        "recommendation": "CATEGORY VERIFICATION NEEDED: The Places API returned a generic category type for this listing, so the expected 'Dumpster Rental' category could not be confirmed automatically. Log into the GBP dashboard and verify the primary category is set to 'Dumpster Rental'."
+      },
+      {
+        "name": "NAP Consistency",
+        "status": "fail",
+        "priority": "critical",
+        "points_earned": 0,
+        "points_possible": 4,
+        "value": "NAP Mismatch",
+        "detail": "Critical NAP mismatches: Name mismatch (GBP: 'redbox+ Dumpsters of Greater Nashville' vs Reference: 'redbox+ of Greater Nashville'); Phone mismatch (GBP: '(615) 908-4448' vs Reference: '615-606-7160'); Address mismatch (Street number '5225' mismatch, Street name '5225' mismatch, City 'Nashville' mismatch, ZIP code '37221' mismatch).",
+        "recommendation": "Critical: Correct the mismatched details on your Google Business Profile immediately. Inconsistent citations severely harm your local map placement. ⚠️ IMPORTANT NOTE ON CALL-TRACKING: Many franchise owners use a local tracking number (such as CallRail) as their primary GBP number to measure incoming lead sources, while keeping their main office number on the website. If this is the case, it is a standard practice and is acceptable, BUT you must log in to your Google Business Profile dashboard and ensure your main office number (615-606-7160) is added as an 'Additional Phone' under the Contact options. This ensures search engines can still crawl and associate both numbers, preserving your local citation authority behind the scenes. If you are not using call-tracking, please update your GBP primary number to match your records."
+      }
+    ]
+  }
+}

@@ -1,0 +1,484 @@
+{
+  "name": "Forks Chem-Dry",
+  "domain": "forkschemdry.com",
+  "url": "https://forkschemdry.com",
+  "city": "Grand Forks",
+  "state": "ND",
+  "phone": "(218) 773-1325",
+  "address": "607 25th Ave S",
+  "zip_code": "58201",
+  "owner": "James Sundine",
+  "place_id": "ChIJi-cowqGGxlIRb28a38w2-EQ",
+  "gbp_url": "https://share.google/tVwc6oHjsuaLaE9JT",
+  "business_name": "Forks Chem-Dry",
+  "audited_at": "2026-05-21T04:14:40.916188+00:00",
+  "http_status": 200,
+  "error": "",
+  "total_score": 77.4,
+  "grade": "B",
+  "grade_label": "Good — minor improvements needed",
+  "grade_color": "#84cc16",
+  "website_seo": {
+    "name": "Website SEO",
+    "score": 82.2,
+    "earned": 71.5,
+    "possible": 87,
+    "pass_count": 18,
+    "fail_count": 3,
+    "warn_count": 3,
+    "checks": [
+      {
+        "name": "SSL / HTTPS",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "HTTPS",
+        "detail": "Site loads securely over HTTPS, preserving user trust and satisfying a core search engine ranking requirement.",
+        "recommendation": ""
+      },
+      {
+        "name": "Title Tag",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "Professional Carpet & Upholstery Cleaning In Grand Forks | Chem-Dry",
+        "detail": "Title tag is present in the HTML head.",
+        "recommendation": ""
+      },
+      {
+        "name": "Title Length",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.5,
+        "points_possible": 3,
+        "value": "67 chars",
+        "detail": "Title tag is too long (67 characters, target is 50–60 characters).",
+        "recommendation": "✂️ TITLE TRUNCATION WARNING: The title exceeds the recommended limit of 60 characters. Search engines will truncate excessive title lengths with an ellipsis (\"...\") in search results, creating a messy appearance and reducing CTR. Refactor the title to be under 60 characters by placing your primary high-priority keyword and city name at the front, and branding at the end."
+      },
+      {
+        "name": "City in Title",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "Grand Forks",
+        "detail": "City \"Grand Forks\" found in title, providing a strong local relevancy signal.",
+        "recommendation": ""
+      },
+      {
+        "name": "Brand in Title",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 2,
+        "points_possible": 2,
+        "value": "Yes",
+        "detail": "Brand name is present in the title tag.",
+        "recommendation": ""
+      },
+      {
+        "name": "Meta Description",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "We proudly serve Grand Forks every day by helping our customers maintain a clean…",
+        "detail": "Meta description is present in the HTML head.",
+        "recommendation": ""
+      },
+      {
+        "name": "Meta Description Length",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "152 chars",
+        "detail": "Meta description length (152 characters) is within the recommended search range (120–160 characters).",
+        "recommendation": ""
+      },
+      {
+        "name": "Meta Description CTA",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.0,
+        "points_possible": 2,
+        "value": "(none)",
+        "detail": "No high-impact call-to-action keyword was found in the meta description.",
+        "recommendation": "📞 CALL-TO-ACTION RECOMMENDATION: Your meta description lacks a strong call-to-action (CTA) keyword. A persuasive CTA keyword (such as \"Call today\", \"Schedule a free quote\", or \"Book online\") bridges the gap between searching and booking. Revise the description to include an active, enticing prompt that instructs the user on their next step."
+      },
+      {
+        "name": "H1 Tag",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "Your Healthy Home Cleaners For Grand Forks, North Dakota",
+        "detail": "Exactly one H1 tag is present on the page, serving as the main topical heading.",
+        "recommendation": ""
+      },
+      {
+        "name": "H1 Service Keyword",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "Yes",
+        "detail": "H1 contains a relevant, high-volume service keyword.",
+        "recommendation": ""
+      },
+      {
+        "name": "Heading Hierarchy",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.0,
+        "points_possible": 2,
+        "value": "H2, H2 before H1",
+        "detail": "Subheadings (H2, H2) were found physically appearing before the first primary H1 tag in the HTML source.",
+        "recommendation": "🏗️ OUT-OF-ORDER HEADING WARNING: A subheading (such as H2 or H3) appears physically in the code before the primary H1 topic heading. HTML heading hierarchy should always flow sequentially, starting with a single H1 as the page title, followed by H2 and H3 tags to organize sections. Placing subheadings before the main topic title disrupts the structural outline of your site, reducing search crawler understanding and screen reader usability. Demote or re-order these preceding subheadings in your theme/code so that the H1 is the first heading in the HTML source."
+      },
+      {
+        "name": "Canonical Tag",
+        "status": "fail",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 4,
+        "value": "(missing)",
+        "detail": "No canonical link element was found in the HTML head.",
+        "recommendation": "🔗 DUPLICATE CONTENT MITIGATION: No canonical link tag was found. Canonical tags tell search engines which version of a URL is the master copy, preventing indexing issues caused by duplicate URL structures (such as http vs https, or www vs non-www). Add a `<link rel=\"canonical\" href=\"https://[your-domain]/\">` to the HTML `<head>` to consolidate all link equity."
+      },
+      {
+        "name": "Viewport Meta",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "width=device-width, initial-scale=1.0",
+        "detail": "Viewport meta tag is present, enabling mobile device optimization.",
+        "recommendation": ""
+      },
+      {
+        "name": "robots.txt",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 2,
+        "points_possible": 2,
+        "value": "https://forkschemdry.com/robots.txt",
+        "detail": "robots.txt file is present and accessible.",
+        "recommendation": ""
+      },
+      {
+        "name": "XML Sitemap",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "https://forkschemdry.com/sitemap.xml",
+        "detail": "XML sitemap is present and accessible.",
+        "recommendation": ""
+      },
+      {
+        "name": "Schema / JSON-LD",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "LocalBusiness",
+        "detail": "Found 1 JSON-LD schema block(s) in the HTML source.",
+        "recommendation": ""
+      },
+      {
+        "name": "LocalBusiness Schema",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "Yes",
+        "detail": "LocalBusiness (or specific CleaningService) schema type is present.",
+        "recommendation": ""
+      },
+      {
+        "name": "Open Graph Tags",
+        "status": "fail",
+        "priority": "low",
+        "points_earned": 0,
+        "points_possible": 3,
+        "value": "(none)",
+        "detail": "No Open Graph meta tags were found in the HTML head.",
+        "recommendation": "📣 SOCIAL BRANDING ACTION: No Open Graph meta tags were found in the HTML source. In today's digital landscape, social media shares are a major source of referral traffic. Without OG tags, social shares will display arbitrary images and text. Add og:title, og:description, and og:image tags to the HTML head to take control of your social presentation."
+      },
+      {
+        "name": "Image Alt Text",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "22/22 have alt",
+        "detail": "All homepage images have descriptive alt attributes configured, maximizing accessibility and image search indexing.",
+        "recommendation": ""
+      },
+      {
+        "name": "Image File Naming",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "1/22 generic",
+        "detail": "Only 4.5% of homepage images use unoptimized or generic filenames, which is well within best practices.",
+        "recommendation": ""
+      },
+      {
+        "name": "Internal Links",
+        "status": "pass",
+        "priority": "low",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "39 links",
+        "detail": "Found 39 internal links, establishing strong crawl paths for search crawlers.",
+        "recommendation": ""
+      },
+      {
+        "name": "Footer NAP",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "Phone, City/Address, Name",
+        "detail": "A complete Name, Address, and Phone (NAP) block was found in the footer, solidifying local search credibility.",
+        "recommendation": ""
+      },
+      {
+        "name": "City Page",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "(not found)",
+        "detail": "No active landing page was found under common URL paths for city \"Grand Forks\".",
+        "recommendation": "📍 LOCAL TARGETING OPPORTUNITY: No dedicated local city page was found (such as /grand-forks). Creating a dedicated service page for your primary city is a highly effective strategy to capture high-intent local search traffic. Develop a high-quality local page featuring localized service text, customer reviews from the area, a local phone number, and a map embed to capture regional customers."
+      },
+      {
+        "name": "HouseCall Pro Integration",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "https://book.housecallpro.com/book/Forks-Chem-Dry/190bd17963",
+        "detail": "Active HouseCall Pro online booking integration was successfully detected on the website.",
+        "recommendation": ""
+      }
+    ]
+  },
+  "pagespeed": {
+    "name": "PageSpeed Insights",
+    "score": 42.4,
+    "earned": 16.97,
+    "possible": 40,
+    "pass_count": 0,
+    "fail_count": 4,
+    "warn_count": 3,
+    "checks": [
+      {
+        "name": "Performance (Mobile)",
+        "status": "warn",
+        "priority": "high",
+        "points_earned": 5.2,
+        "points_possible": 10,
+        "value": "52/100",
+        "detail": "Mobile performance score: 52/100.",
+        "recommendation": "Your Mobile performance score is 52/100. While your site is functional, it has noticeable latency that could cause visitors to bounce before the page fully loads. We strongly recommend implementing the following optimizations to achieve an excellent score: (1) Defer non-essential scripts (like tracking codes or chatbots) so they only load after the main content; (2) Set explicit width and height attributes on all images and containers to prevent layout shifts; (3) Utilize modern lazy-loading for all below-the-fold images to save initial bandwidth."
+      },
+      {
+        "name": "Performance (Desktop)",
+        "status": "fail",
+        "priority": "medium",
+        "points_earned": 3.92,
+        "points_possible": 8,
+        "value": "49/100",
+        "detail": "Desktop performance score: 49/100.",
+        "recommendation": "Your Desktop performance score is currently 49/100, which is critically low and severely harms your search engine rankings and conversion rates. Search engines like Google penalize slow-loading sites, especially on mobile devices where network speeds are slower. To resolve this, you must prioritize optimizing your site's assets: (1) Optimize and compress all images using next-gen formats like WebP or AVIF; (2) Defer or minify unused JavaScript and CSS files that block the browser from rendering the page quickly; (3) Leverage browser caching and utilize a Content Delivery Network (CDN) to serve assets faster."
+      },
+      {
+        "name": "LCP (Largest Contentful Paint)",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "10.52s",
+        "detail": "LCP is 10.52s (threshold: ≤ 2.5s).",
+        "recommendation": "Your Largest Contentful Paint (LCP) is 10.52 seconds, which exceeds the recommended threshold of 2.5s. LCP measures when the main, largest piece of content on your screen (usually a hero banner, large heading, or primary image) becomes visible. A slow LCP makes the page feel laggy and unresponsive to users. To speed up LCP: (1) Preload your primary hero image or main banner image in the HTML header (using <link rel='preload'>) so it starts downloading immediately; (2) Eliminate or defer render-blocking JavaScript and CSS files that delay page construction; (3) Optimize server response times and database queries so the server sends the HTML document faster; (4) Ensure your web server has Gzip or Brotli compression enabled and utilizes modern image formats like WebP."
+      },
+      {
+        "name": "CLS (Cumulative Layout Shift)",
+        "status": "fail",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 4,
+        "value": "0.184",
+        "detail": "CLS is 0.184 (threshold: ≤ 0.1).",
+        "recommendation": "Your Cumulative Layout Shift (CLS) score is 0.184, which is higher than Google's good threshold of 0.1. CLS measures visual stability. A high CLS means elements (like text, images, or buttons) are jumping around on the page while it loads, which frustrates visitors who might accidentally click the wrong link or button. To fix CLS: (1) Ensure every image, video, and iframe has explicit width and height dimensions defined in the HTML/CSS so the browser reserves the correct space beforehand; (2) Never inject dynamic content (like promo banners, alerts, or newsletter signups) above existing content after the page has started rendering; (3) Use CSS aspect-ratio properties and reserve slots for slow-loading third-party widgets like Google Maps or embedded reviews."
+      },
+      {
+        "name": "TBT (Total Blocking Time)",
+        "status": "fail",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 3,
+        "value": "283ms",
+        "detail": "TBT is 283ms (threshold: ≤ 200ms).",
+        "recommendation": "Your Total Blocking Time (TBT) is 283ms, which exceeds the recommended limit of 200ms. TBT acts as a direct proxy for Google's Interaction to Next Paint (INP) metric, measuring how long the page is unresponsive to user inputs (like clicks or keyboard taps) during load. To resolve this: (1) Split long-running JavaScript tasks (anything over 50ms) into smaller chunks using setTimeout or requestIdleCallback; (2) Remove unused or duplicate JavaScript libraries from your bundle; (3) Audit and defer heavy third-party tracking scripts (such as heatmaps, analytics, or complex chat widgets) until after the page is fully interactive."
+      },
+      {
+        "name": "Accessibility Score",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 4.1,
+        "points_possible": 5,
+        "value": "82/100",
+        "detail": "Lighthouse accessibility score: 82/100.",
+        "recommendation": "Your accessibility score is 82/100. Your site is mostly usable but contains minor compliance issues that should be addressed to provide a seamless experience for all visitors: (1) Review contrast ratios on form labels and footer links; (2) Ensure heading elements (H1, H2, H3) are nested in strict logical order; (3) Add form field labels that are explicitly associated with their input elements."
+      },
+      {
+        "name": "SEO (Lighthouse)",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 3.75,
+        "points_possible": 5,
+        "value": "75/100",
+        "detail": "Lighthouse SEO score: 75/100.",
+        "recommendation": "Your website has a solid Lighthouse SEO score of 75/100. However, there are minor optimization opportunities to ensure absolute search engine compliance: (1) Verify that all page links contain descriptive anchor text (avoid generic terms like 'click here' or 'read more'); (2) Check that all structured data schemas are fully valid and free of parsing warnings."
+      }
+    ]
+  },
+  "gbp": {
+    "name": "Google Business Profile",
+    "score": 90.0,
+    "earned": 45,
+    "possible": 50,
+    "pass_count": 11,
+    "fail_count": 1,
+    "warn_count": 0,
+    "checks": [
+      {
+        "name": "Listing Found",
+        "status": "pass",
+        "priority": "critical",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "ChIJi-cowqGGxlIRb28a38w2-EQ",
+        "detail": "GBP listing found (place_id: ChIJi-cowqGGxlIRb28a38w2-EQ).",
+        "recommendation": ""
+      },
+      {
+        "name": "Name Match",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "Forks Chem-Dry",
+        "detail": "GBP name \"Forks Chem-Dry\" matches the expected name \"Forks Chem-Dry\".",
+        "recommendation": ""
+      },
+      {
+        "name": "Phone Present",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "(218) 773-1325",
+        "detail": "Phone number is set on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Website Set",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "https://forkschemdry.com/?utm_source=GBP&utm_medium=organic",
+        "detail": "Website URL is set on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Address Complete",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "Service Area Business (SAB)",
+        "detail": "This Google Business Profile is properly configured as a Service Area Business (SAB). Its street address is hidden from the public to protect residential privacy, and its territory is defined by service area boundaries, which is the exact brand-compliant setup for mobile/on-site service franchisees.",
+        "recommendation": ""
+      },
+      {
+        "name": "Hours Set",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "5 period(s)",
+        "detail": "Business hours are configured on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Rating",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "5.0⭐",
+        "detail": "Rating is 5.0 (target ≥ 4.0).",
+        "recommendation": ""
+      },
+      {
+        "name": "Review Count",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "116 reviews",
+        "detail": "116 reviews (target ≥ 10).",
+        "recommendation": ""
+      },
+      {
+        "name": "Photos",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "10 photos",
+        "detail": "10 photos found (minimum 3).",
+        "recommendation": ""
+      },
+      {
+        "name": "Primary Category",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "Laundry",
+        "detail": "Primary category is set: \"Laundry\".",
+        "recommendation": ""
+      },
+      {
+        "name": "Category Match",
+        "status": "fail",
+        "priority": "critical",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "Laundry",
+        "detail": "GBP primary category \"Laundry\" does NOT match expected \"Carpet Cleaning Service\".",
+        "recommendation": "🚨 CRITICAL CATEGORY MISMATCH: Your GBP primary category is 'Laundry', but the expected category for this franchise is 'Carpet Cleaning Service'. This is a major red flag — an incorrect primary category means Google is showing your listing for the WRONG types of searches. For example, people searching for 'carpet cleaning service' services will not find you in the Map Pack. Log in to your GBP dashboard immediately and change the primary category to 'Carpet Cleaning Service'. You may keep the current category as a secondary category if relevant."
+      },
+      {
+        "name": "NAP Consistency",
+        "status": "pass",
+        "priority": "critical",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "Name, Address, & Phone Match",
+        "detail": "Consistent NAP found. Matches: Name matched, Phone matched, Address matched (SAB Hidden Address).",
+        "recommendation": ""
+      }
+    ]
+  }
+}

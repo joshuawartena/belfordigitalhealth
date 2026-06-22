@@ -1,0 +1,504 @@
+{
+  "name": "JUNKCO+ of Nashville",
+  "domain": "junkcoplus.com",
+  "url": "https://www.junkcoplus.com/nashville/",
+  "city": "Nashville",
+  "state": "TN",
+  "phone": "615-703-4068",
+  "address": "8960 Big Oak Dr",
+  "zip_code": "37129",
+  "owner": "Robert Sipp",
+  "place_id": "ChIJUail7lpFZIgRMlPPtGmEQAc",
+  "gbp_url": "https://maps.app.goo.gl/PCjXSTqU89dEz2eF7",
+  "business_name": "JUNKCO+ of Nashville",
+  "audited_at": "2026-06-17T17:38:19.442207+00:00",
+  "http_status": 200,
+  "error": "",
+  "total_score": 74.5,
+  "grade": "C",
+  "grade_label": "Needs attention",
+  "grade_color": "#f59e0b",
+  "website_seo": {
+    "name": "Website SEO",
+    "score": 82.4,
+    "earned": 72.5,
+    "possible": 88.0,
+    "pass_count": 15,
+    "fail_count": 0,
+    "warn_count": 10,
+    "checks": [
+      {
+        "name": "SSL / HTTPS",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "HTTPS",
+        "detail": "Site loads securely over HTTPS, preserving user trust and satisfying a core search engine ranking requirement.",
+        "recommendation": ""
+      },
+      {
+        "name": "Title Tag",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "Junk Removal Company | JUNKCO+ of Nashville",
+        "detail": "Title tag is present in the HTML head.",
+        "recommendation": ""
+      },
+      {
+        "name": "Title Length",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.5,
+        "points_possible": 3,
+        "value": "43 chars",
+        "detail": "Title tag is too short (43 characters, target is 50–60 characters).",
+        "recommendation": "📈 TITLE OPTIMIZATION OPPORTUNITY: The current title is too short, leaving valuable SEO real estate unused. Expand the title to between 50 and 60 characters by integrating primary local keywords (e.g., \"Upholstery & Carpet Cleaning\") along with your target city. This maximizes your ranking potential for multiple search terms while retaining a natural, human-friendly presentation."
+      },
+      {
+        "name": "City in Title",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "Nashville",
+        "detail": "City \"Nashville\" found in title, providing a strong local relevancy signal.",
+        "recommendation": ""
+      },
+      {
+        "name": "Brand in Title",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.0,
+        "points_possible": 2,
+        "value": "(missing)",
+        "detail": "Brand name \"Chem-Dry\" not found in the title tag.",
+        "recommendation": "🏷️ BRAND CITATION RECOMMENDATION: The franchise brand name is missing from the homepage title tag. Including \"Chem-Dry\" establishes consumer trust, leverages national advertising campaigns, and builds local brand equity. Append \" | Chem-Dry\" or similar approved brand styling to the end of the title tag to align with national brand standards."
+      },
+      {
+        "name": "Meta Description",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "Same-day, next-day junk removal, demolition expert services and more. You'll be …",
+        "detail": "Meta description is present in the HTML head.",
+        "recommendation": ""
+      },
+      {
+        "name": "Meta Description Length",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "128 chars",
+        "detail": "Meta description length (128 characters) is within the recommended search range (120–160 characters).",
+        "recommendation": ""
+      },
+      {
+        "name": "Meta Description CTA",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.0,
+        "points_possible": 2,
+        "value": "(none)",
+        "detail": "No high-impact call-to-action keyword was found in the meta description.",
+        "recommendation": "📞 CALL-TO-ACTION RECOMMENDATION: Your meta description lacks a strong call-to-action (CTA) keyword. A persuasive CTA keyword (such as \"Call today\", \"Schedule a free quote\", or \"Book online\") bridges the gap between searching and booking. Revise the description to include an active, enticing prompt that instructs the user on their next step."
+      },
+      {
+        "name": "H1 Tag",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "The Junk Removal & Demolition Experts in Nashville",
+        "detail": "Exactly one H1 tag is present on the page, serving as the main topical heading.",
+        "recommendation": ""
+      },
+      {
+        "name": "H1 Service Keyword",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.5,
+        "points_possible": 3,
+        "value": "(none)",
+        "detail": "The <h1> tag does not contain a primary service keyword.",
+        "recommendation": "🔍 HEADLINE OPTIMIZATION: The primary <h1> tag does not contain any core service keywords (such as \"carpet\", \"cleaning\", \"upholstery\", or \"rug\"). An H1 must clearly declare the main services offered. Rewrite the <h1> to seamlessly include a high-volume search term (e.g., \"Your Healthier Carpet Cleaning Choice in [City]\") to boost keyword ranking relevance."
+      },
+      {
+        "name": "Heading Hierarchy",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 2,
+        "points_possible": 2,
+        "value": "31 headings",
+        "detail": "Heading hierarchy is fully sequential and correct (no levels are skipped and H1 comes first).",
+        "recommendation": ""
+      },
+      {
+        "name": "Canonical Tag",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "https://www.junkcoplus.com/nashville",
+        "detail": "Canonical tag matches the active homepage URL, protecting from duplicate indexing issues.",
+        "recommendation": ""
+      },
+      {
+        "name": "Viewport Meta",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "width=device-width, initial-scale=1, minimum-scale=1, maximu",
+        "detail": "Viewport meta tag is present, enabling mobile device optimization.",
+        "recommendation": ""
+      },
+      {
+        "name": "robots.txt",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.0,
+        "points_possible": 2,
+        "value": "HTTP 404",
+        "detail": "robots.txt returned HTTP status code 404 or is completely missing.",
+        "recommendation": "🤖 CRAWLER GUIDANCE ACTION: The robots.txt file was not found or returned a server error. Search engine bots require a robots.txt file at the root directory of your site to understand which sections to crawl and which to ignore. Create and upload a plain text `robots.txt` file (specifying standard access rules and the path to your XML sitemap) to improve crawling efficiency."
+      },
+      {
+        "name": "XML Sitemap",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "https://www.junkcoplus.com/nashville/sitemap.xml",
+        "detail": "XML sitemap is present and accessible.",
+        "recommendation": ""
+      },
+      {
+        "name": "Schema / JSON-LD",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "unknown, LocalBusiness, LocalBusiness",
+        "detail": "Found 3 JSON-LD schema block(s) in the HTML source.",
+        "recommendation": ""
+      },
+      {
+        "name": "LocalBusiness Schema",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "Yes",
+        "detail": "LocalBusiness (or specific CleaningService) schema type is present.",
+        "recommendation": ""
+      },
+      {
+        "name": "Open Graph Tags",
+        "status": "warn",
+        "priority": "low",
+        "points_earned": 1.5,
+        "points_possible": 3,
+        "value": "Missing: og:image",
+        "detail": "Partial Open Graph implementation detected. Missing tags: og:image.",
+        "recommendation": "📣 SOCIAL LINK PREVIEW RECOMMENDATION: Some Open Graph (OG) tags are missing from the page header. OG tags control how your website's link is displayed when shared on social media (Facebook, LinkedIn, etc.). Add the missing tags (og:image) to guarantee that your social shares look highly professional and drive clicks."
+      },
+      {
+        "name": "Image Alt Text",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 2.0,
+        "points_possible": 4,
+        "value": "1/8 missing alt",
+        "detail": "1 out of 8 images are missing alternative text (alt attributes).",
+        "recommendation": "🖼️ IMAGE ACCESSIBILITY RECOMMENDATION: Several images on the homepage are missing \"alt\" attributes. Alt text serves two critical purposes: it allows screen readers for visually impaired users to understand the image, and it enables search engines to index your images in Google Image Search. Audit all <img> tags and add descriptive, keyword-rich alt text to each."
+      },
+      {
+        "name": "Image File Naming",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.5,
+        "points_possible": 3,
+        "value": "4/8 generic (50.0%)",
+        "detail": "4 out of 8 images on the homepage use generic or unoptimized filenames.",
+        "recommendation": "🖼️ LOCAL IMAGE SEO OPPORTUNITY: Your homepage contains several images with generic names (e.g., logo.png, jco-home-commercial-photos.jpg). Search engine crawlers cannot read the visual content of your images directly; they rely heavily on the file name and alt text to understand the context. Unoptimized names like 'image1.jpg' or hash codes miss a major opportunity to index for local keywords. Rename these image files using descriptive, hyphen-separated keywords that reflect the location, brand, and service (for example, 'carpet-cleaning-forts-chemdry.jpg' instead of 'logo.png')."
+      },
+      {
+        "name": "Internal Links",
+        "status": "pass",
+        "priority": "low",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "102 links",
+        "detail": "Found 102 internal links, establishing strong crawl paths for search crawlers.",
+        "recommendation": ""
+      },
+      {
+        "name": "Footer NAP",
+        "status": "warn",
+        "priority": "high",
+        "points_earned": 2.5,
+        "points_possible": 5,
+        "value": "Missing: City/Address, Name",
+        "detail": "Incomplete footer NAP block. Missing elements: City/Address, Name.",
+        "recommendation": "👣 CITATION COMPLETENESS ACTION: Your website footer contains incomplete Name, Address, and Phone (NAP) details. A local business's footer must display a complete and exact match of its NAP details to serve as a persistent local citation. Add the missing elements (Business Name, Address, and/or Phone) to the footer to build solid local search authority."
+      },
+      {
+        "name": "City Page",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "https://www.junkcoplus.com/nashville/nashville",
+        "detail": "Found an active dedicated city landing page at https://www.junkcoplus.com/nashville/nashville.",
+        "recommendation": ""
+      },
+      {
+        "name": "HouseCall Pro Integration",
+        "status": "skip",
+        "priority": "medium",
+        "points_earned": 0.0,
+        "points_possible": 0.0,
+        "value": "(not applicable)",
+        "detail": "HouseCall Pro booking check is skipped because this is not a Chem-Dry franchise (opt-in for other brands).",
+        "recommendation": ""
+      },
+      {
+        "name": "Maps / Reviews Embed",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "Google Maps iframe",
+        "detail": "An embedded Google Maps iframe was found on the homepage, providing a strong local trust and engagement signal.",
+        "recommendation": ""
+      },
+      {
+        "name": "Facebook Page Link",
+        "status": "warn",
+        "priority": "low",
+        "points_earned": 0,
+        "points_possible": 2,
+        "value": "(not found)",
+        "detail": "No Facebook page link was detected on the homepage.",
+        "recommendation": "📘 SOCIAL PRESENCE RECOMMENDATION: No Facebook page link was found on the homepage. Linking to your active Facebook Business Page strengthens social trust signals and gives visitors a convenient path to read reviews and stay connected. Add a Facebook icon link in the header or footer pointing to your franchise's official Facebook page."
+      }
+    ]
+  },
+  "pagespeed": {
+    "name": "PageSpeed Insights",
+    "score": 45.6,
+    "earned": 18.24,
+    "possible": 40,
+    "pass_count": 2,
+    "fail_count": 4,
+    "warn_count": 1,
+    "checks": [
+      {
+        "name": "Performance (Mobile)",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 3.6,
+        "points_possible": 10,
+        "value": "36/100",
+        "detail": "Mobile performance score: 36/100.",
+        "recommendation": "Your Mobile performance score is currently 36/100, which is critically low and severely harms your search engine rankings and conversion rates. Search engines like Google penalize slow-loading sites, especially on mobile devices where network speeds are slower. To resolve this, you must prioritize optimizing your site's assets: (1) Optimize and compress all images using next-gen formats like WebP or AVIF; (2) Defer or minify unused JavaScript and CSS files that block the browser from rendering the page quickly; (3) Leverage browser caching and utilize a Content Delivery Network (CDN) to serve assets faster."
+      },
+      {
+        "name": "Performance (Desktop)",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 5.04,
+        "points_possible": 8,
+        "value": "63/100",
+        "detail": "Desktop performance score: 63/100.",
+        "recommendation": "Your Desktop performance score is 63/100. While your site is functional, it has noticeable latency that could cause visitors to bounce before the page fully loads. We strongly recommend implementing the following optimizations to achieve an excellent score: (1) Defer non-essential scripts (like tracking codes or chatbots) so they only load after the main content; (2) Set explicit width and height attributes on all images and containers to prevent layout shifts; (3) Utilize modern lazy-loading for all below-the-fold images to save initial bandwidth."
+      },
+      {
+        "name": "LCP (Largest Contentful Paint)",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "14.97s",
+        "detail": "LCP is 14.97s (threshold: ≤ 2.5s).",
+        "recommendation": "Your Largest Contentful Paint (LCP) is 14.97 seconds, which exceeds the recommended threshold of 2.5s. LCP measures when the main, largest piece of content on your screen (usually a hero banner, large heading, or primary image) becomes visible. A slow LCP makes the page feel laggy and unresponsive to users. To speed up LCP: (1) Preload your primary hero image or main banner image in the HTML header (using <link rel='preload'>) so it starts downloading immediately; (2) Eliminate or defer render-blocking JavaScript and CSS files that delay page construction; (3) Optimize server response times and database queries so the server sends the HTML document faster; (4) Ensure your web server has Gzip or Brotli compression enabled and utilizes modern image formats like WebP."
+      },
+      {
+        "name": "CLS (Cumulative Layout Shift)",
+        "status": "fail",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 4,
+        "value": "0.172",
+        "detail": "CLS is 0.172 (threshold: ≤ 0.1).",
+        "recommendation": "Your Cumulative Layout Shift (CLS) score is 0.172, which is higher than Google's good threshold of 0.1. CLS measures visual stability. A high CLS means elements (like text, images, or buttons) are jumping around on the page while it loads, which frustrates visitors who might accidentally click the wrong link or button. To fix CLS: (1) Ensure every image, video, and iframe has explicit width and height dimensions defined in the HTML/CSS so the browser reserves the correct space beforehand; (2) Never inject dynamic content (like promo banners, alerts, or newsletter signups) above existing content after the page has started rendering; (3) Use CSS aspect-ratio properties and reserve slots for slow-loading third-party widgets like Google Maps or embedded reviews."
+      },
+      {
+        "name": "TBT (Total Blocking Time)",
+        "status": "fail",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 3,
+        "value": "646ms",
+        "detail": "TBT is 646ms (threshold: ≤ 200ms).",
+        "recommendation": "Your Total Blocking Time (TBT) is 646ms, which exceeds the recommended limit of 200ms. TBT acts as a direct proxy for Google's Interaction to Next Paint (INP) metric, measuring how long the page is unresponsive to user inputs (like clicks or keyboard taps) during load. To resolve this: (1) Split long-running JavaScript tasks (anything over 50ms) into smaller chunks using setTimeout or requestIdleCallback; (2) Remove unused or duplicate JavaScript libraries from your bundle; (3) Audit and defer heavy third-party tracking scripts (such as heatmaps, analytics, or complex chat widgets) until after the page is fully interactive."
+      },
+      {
+        "name": "Accessibility Score",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 4.6,
+        "points_possible": 5,
+        "value": "92/100",
+        "detail": "Lighthouse accessibility score: 92/100.",
+        "recommendation": ""
+      },
+      {
+        "name": "SEO (Lighthouse)",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 5.0,
+        "points_possible": 5,
+        "value": "100/100",
+        "detail": "Lighthouse SEO score: 100/100.",
+        "recommendation": ""
+      }
+    ]
+  },
+  "gbp": {
+    "name": "Google Business Profile",
+    "score": 81.0,
+    "earned": 40.5,
+    "possible": 50,
+    "pass_count": 9,
+    "fail_count": 2,
+    "warn_count": 1,
+    "checks": [
+      {
+        "name": "Listing Found",
+        "status": "pass",
+        "priority": "critical",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "ChIJUail7lpFZIgRMlPPtGmEQAc",
+        "detail": "GBP listing found (place_id: ChIJUail7lpFZIgRMlPPtGmEQAc).",
+        "recommendation": ""
+      },
+      {
+        "name": "Name Match",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 3,
+        "value": "Junk Guys Junk Removal Nashville",
+        "detail": "GBP name \"Junk Guys Junk Removal Nashville\" does not match expected name \"JUNKCO+ of Nashville\".",
+        "recommendation": "🏷️ CRITICAL NAME MISMATCH: The display name on your Google Business Profile is 'Junk Guys Junk Removal Nashville', but the expected franchise name is 'JUNKCO+ of Nashville'. An incorrect GBP name is a critical local authority and trust issue - it leads to customer confusion, damages NAP citation consistency, and can violate national brand guidelines. Update the business display name in the GBP dashboard to exactly match 'JUNKCO+ of Nashville' in compliance with your franchise agreement."
+      },
+      {
+        "name": "Phone Present",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "(615) 510-2387",
+        "detail": "Phone number is set on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Website Set",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "https://junkguysjunkremoval.com/",
+        "detail": "Website URL is set on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Address Complete",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "501 Union St, Nashville, TN 37219, USA",
+        "detail": "Formatted address is set on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Hours Set",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "1 period(s)",
+        "detail": "Business hours are configured on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Rating",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "5.0⭐",
+        "detail": "Rating is 5.0 (target ≥ 4.0).",
+        "recommendation": ""
+      },
+      {
+        "name": "Review Count",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "110 reviews",
+        "detail": "110 reviews (target ≥ 10).",
+        "recommendation": ""
+      },
+      {
+        "name": "Photos",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "10 photos",
+        "detail": "10 photos found (minimum 3).",
+        "recommendation": ""
+      },
+      {
+        "name": "Primary Category",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "Services",
+        "detail": "Primary category is set: \"Services (raw type: service)\".",
+        "recommendation": ""
+      },
+      {
+        "name": "Category Match",
+        "status": "warn",
+        "priority": "critical",
+        "points_earned": 2.5,
+        "points_possible": 5,
+        "value": "Services",
+        "detail": "Places API returned generic category \"Services\" — could not confirm expected \"Junk Removal\". Verify the GBP dashboard shows \"Junk Removal\" as the primary category.",
+        "recommendation": "CATEGORY VERIFICATION NEEDED: The Places API returned a generic category type for this listing, so the expected 'Junk Removal' category could not be confirmed automatically. Log into the GBP dashboard and verify the primary category is set to 'Junk Removal'."
+      },
+      {
+        "name": "NAP Consistency",
+        "status": "fail",
+        "priority": "critical",
+        "points_earned": 0,
+        "points_possible": 4,
+        "value": "NAP Mismatch",
+        "detail": "Critical NAP mismatches: Name mismatch (GBP: 'Junk Guys Junk Removal Nashville' vs Reference: 'JUNKCO+ of Nashville'); Phone mismatch (GBP: '(615) 510-2387' vs Reference: '615-703-4068'); Address mismatch (Street number '8960' mismatch, Street name '8960' mismatch, ZIP code '37129' mismatch).",
+        "recommendation": "Critical: Correct the mismatched details on your Google Business Profile immediately. Inconsistent citations severely harm your local map placement. ⚠️ IMPORTANT NOTE ON CALL-TRACKING: Many franchise owners use a local tracking number (such as CallRail) as their primary GBP number to measure incoming lead sources, while keeping their main office number on the website. If this is the case, it is a standard practice and is acceptable, BUT you must log in to your Google Business Profile dashboard and ensure your main office number (615-703-4068) is added as an 'Additional Phone' under the Contact options. This ensures search engines can still crawl and associate both numbers, preserving your local citation authority behind the scenes. If you are not using call-tracking, please update your GBP primary number to match your records."
+      }
+    ]
+  }
+}

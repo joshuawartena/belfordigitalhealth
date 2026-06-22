@@ -1,0 +1,444 @@
+{
+  "name": "TNT Chem-Dry",
+  "domain": "tntchemdry.com",
+  "url": "https://www.tntchemdry.com/",
+  "city": "Nashville",
+  "state": "TN",
+  "phone": "615-557-5231",
+  "address": "200 Brook Ct.",
+  "zip_code": "37167",
+  "owner": "Tara Ouston",
+  "place_id": "ChIJ4b-ef19vZIgRFT7IXM9ClTM",
+  "gbp_url": "https://maps.app.goo.gl/vVRJqnm3j1hAp94y7",
+  "business_name": "TNT Chem-Dry",
+  "audited_at": "2026-06-17T17:39:28.929693+00:00",
+  "http_status": 202,
+  "error": "",
+  "total_score": 65.2,
+  "grade": "C",
+  "grade_label": "Needs attention",
+  "grade_color": "#f59e0b",
+  "website_seo": {
+    "name": "Website SEO",
+    "score": 30.3,
+    "earned": 23.0,
+    "possible": 76,
+    "pass_count": 6,
+    "fail_count": 12,
+    "warn_count": 2,
+    "checks": [
+      {
+        "name": "SSL / HTTPS",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "HTTPS",
+        "detail": "Site loads securely over HTTPS, preserving user trust and satisfying a core search engine ranking requirement.",
+        "recommendation": ""
+      },
+      {
+        "name": "Title Tag",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "(missing)",
+        "detail": "No <title> tag found in the HTML source code.",
+        "recommendation": "⚠️ CRITICAL ON-PAGE SEO ACTION: Your website is missing its most important on-page SEO element: the <title> tag. Search engines rely on this tag to understand what your page is about and display it in Search Engine Results Pages (SERPs). You must immediately add a title tag. For a franchise, the ideal format is: \"Carpet Cleaning in [City, State] | [Brand Name]\" to target local high-intent search terms."
+      },
+      {
+        "name": "Meta Description",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "(missing)",
+        "detail": "No meta description tag was found in the HTML head.",
+        "recommendation": "✍️ CRITICAL CTR ACTION: No meta description was found in the HTML source. The meta description acts as your organic ad copy in search results; if it is missing, search engines will auto-generate a snippet from random page text, which often looks disorganized. Write a compelling 120–160 character meta description highlighting your unique selling propositions (e.g., green-certified, fast drying) and a clear call-to-action."
+      },
+      {
+        "name": "H1 Tag",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "(missing)",
+        "detail": "No <h1> tag was found in the HTML document body.",
+        "recommendation": "⚠️ CRITICAL HEADLINE ACTION: No <h1> tag was found. The H1 is the single most important on-page text element for search engines to evaluate what your website homepage is about. You must add exactly one <h1> tag near the top of the page, structured like: \"Professional Carpet Cleaning in [City, State]\" to immediately establish local topical authority."
+      },
+      {
+        "name": "Heading Hierarchy",
+        "status": "warn",
+        "priority": "medium",
+        "points_earned": 1.0,
+        "points_possible": 2,
+        "value": "(none)",
+        "detail": "No HTML heading tags (H1-H6) were found on the homepage.",
+        "recommendation": "🏗️ ON-PAGE STRUCTURE RECOMMENDATION: No heading tags (H1-H6) were found on the homepage. Standard HTML headings are essential for dividing content into logical, readable sections for both human visitors and search crawlers. Restructure the page copy by adding a clear heading hierarchy (a singular H1 followed by H2 subheadings and H3 details) to improve accessibility and topical indexing."
+      },
+      {
+        "name": "Canonical Tag",
+        "status": "fail",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 4,
+        "value": "(missing)",
+        "detail": "No canonical link element was found in the HTML head.",
+        "recommendation": "🔗 DUPLICATE CONTENT MITIGATION: No canonical link tag was found. Canonical tags tell search engines which version of a URL is the master copy, preventing indexing issues caused by duplicate URL structures (such as http vs https, or www vs non-www). Add a `<link rel=\"canonical\" href=\"https://[your-domain]/\">` to the HTML `<head>` to consolidate all link equity."
+      },
+      {
+        "name": "Viewport Meta",
+        "status": "fail",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 3,
+        "value": "(missing)",
+        "detail": "No viewport meta tag was found in the HTML head.",
+        "recommendation": "📱 MOBILE RESPONSIVENESS ACTION: No viewport meta tag was detected. Over 60% of local cleaning service searches occur on mobile devices. Without a viewport tag, mobile browsers will render the desktop version of your site, resulting in microscopic text, poor usability, and a direct penalty in Google's mobile-first indexing. Add `<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">` immediately."
+      },
+      {
+        "name": "robots.txt",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 2,
+        "points_possible": 2,
+        "value": "https://www.tntchemdry.com/robots.txt",
+        "detail": "robots.txt file is present and accessible.",
+        "recommendation": ""
+      },
+      {
+        "name": "XML Sitemap",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "https://www.tntchemdry.com/sitemap.xml",
+        "detail": "XML sitemap is present and accessible.",
+        "recommendation": ""
+      },
+      {
+        "name": "Schema / JSON-LD",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "(none)",
+        "detail": "No structured JSON-LD data was found in the HTML source code.",
+        "recommendation": "📊 STRUCTURED DATA RECOMMENDATION: No JSON-LD structured data was found on the homepage. Schema markup is a powerful technical SEO tool that directly translates your site's information into a machine-readable format. Implement JSON-LD schema (incorporating business details, logo, and social profiles) in the header to earn rich snippets and elevate search engine prominence."
+      },
+      {
+        "name": "LocalBusiness Schema",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "(missing)",
+        "detail": "No specific LocalBusiness (or CleaningService) schema type was detected.",
+        "recommendation": "🏠 LOCAL BUSINESS SCHEMA ACTION: The homepage is missing LocalBusiness (or CleaningService) structured schema. LocalBusiness schema explicitly details your business name, address, phone (NAP), operating hours, service area, and customer reviews to Google. Generating and embedding this JSON-LD block is one of the most effective ways to secure a higher placement in local Google Map Pack results."
+      },
+      {
+        "name": "Open Graph Tags",
+        "status": "fail",
+        "priority": "low",
+        "points_earned": 0,
+        "points_possible": 3,
+        "value": "(none)",
+        "detail": "No Open Graph meta tags were found in the HTML head.",
+        "recommendation": "📣 SOCIAL BRANDING ACTION: No Open Graph meta tags were found in the HTML source. In today's digital landscape, social media shares are a major source of referral traffic. Without OG tags, social shares will display arbitrary images and text. Add og:title, og:description, and og:image tags to the HTML head to take control of your social presentation."
+      },
+      {
+        "name": "Image Alt Text",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "0 images",
+        "detail": "No images present on the homepage to evaluate.",
+        "recommendation": ""
+      },
+      {
+        "name": "Image File Naming",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "0 images",
+        "detail": "No images present on the homepage to evaluate.",
+        "recommendation": ""
+      },
+      {
+        "name": "Internal Links",
+        "status": "fail",
+        "priority": "low",
+        "points_earned": 0,
+        "points_possible": 3,
+        "value": "0 links",
+        "detail": "No valid, crawlable internal links were found on the homepage.",
+        "recommendation": "🔗 CRITICAL SITE INDEXATION ACTION: No internal links were found on your homepage. This creates a severe crawlability bottleneck, leaving your subpages orphaned and invisible to search crawlers. Add a navigation menu or text links linking directly to your core service pages, about page, and contact page. This is essential to guide bots and users through your site."
+      },
+      {
+        "name": "Footer NAP",
+        "status": "fail",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "(none)",
+        "detail": "No business NAP (Name, Address, Phone) information was detected in the footer text.",
+        "recommendation": "👣 CRITICAL FOOTER CITATION ACTION: No Name, Address, or Phone (NAP) data was found in your homepage footer. In local SEO, a consistent footer NAP block is a core citation that search engines look for to verify your geographical location and business legitimacy. Add your official franchise name, full physical/service-area address, and primary phone number to the footer immediately."
+      },
+      {
+        "name": "City Page",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "https://www.tntchemdry.com/nashville",
+        "detail": "Found an active dedicated city landing page at https://www.tntchemdry.com/nashville.",
+        "recommendation": ""
+      },
+      {
+        "name": "HouseCall Pro Integration",
+        "status": "fail",
+        "priority": "medium",
+        "points_earned": 0.0,
+        "points_possible": 4,
+        "value": "Not Detected",
+        "detail": "No active HouseCall Pro online booking integration was found on the homepage.",
+        "recommendation": "📞 HOUSECALL PRO INTEGRATION OPTIMIZATION: Your website does not appear to have an active HouseCall Pro booking widget or link. HouseCall Pro is the official, brand-approved CRM and online booking platform for Chem-Dry. Integrating the HouseCall Pro booking widget directly onto your website allows customers to view real-time availability, select services, and book jobs 24/7 without needing to call. This significantly increases your digital conversion rates and streamlines scheduling. Please contact WMS Support or log in to your HouseCall Pro dashboard to retrieve your online booking link and embed it as a prominent call-to-action button (e.g., 'Book Online Now') on your homepage."
+      },
+      {
+        "name": "Maps / Reviews Embed",
+        "status": "fail",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 3,
+        "value": "(not found)",
+        "detail": "No Google Maps embed or review widget was found on the homepage.",
+        "recommendation": "📍 LOCAL TRUST SIGNAL OPPORTUNITY: Your homepage does not include a Google Maps embed or a review widget. Embedding a Google Map pinned to your business location provides a clear visual trust signal and reinforces your local presence to both visitors and search crawlers. Consider adding a Google Maps iframe via Google My Business \"Share\" → \"Embed a map\", or integrate a review widget (such as Birdeye or Podium) to display live Google reviews directly on the page — increasing credibility and local conversion rates."
+      },
+      {
+        "name": "Facebook Page Link",
+        "status": "warn",
+        "priority": "low",
+        "points_earned": 0,
+        "points_possible": 2,
+        "value": "(not found)",
+        "detail": "No Facebook page link was detected on the homepage.",
+        "recommendation": "📘 SOCIAL PRESENCE RECOMMENDATION: No Facebook page link was found on the homepage. Linking to your active Facebook Business Page strengthens social trust signals and gives visitors a convenient path to read reviews and stay connected. Add a Facebook icon link in the header or footer pointing to your franchise's official Facebook page."
+      }
+    ]
+  },
+  "pagespeed": {
+    "name": "PageSpeed Insights",
+    "score": 0.0,
+    "earned": 0,
+    "possible": 40,
+    "pass_count": 0,
+    "fail_count": 0,
+    "warn_count": 0,
+    "checks": [
+      {
+        "name": "Performance (Mobile)",
+        "status": "error",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 10,
+        "value": "API error",
+        "detail": "Could not retrieve PageSpeed data for mobile.",
+        "recommendation": "Check internet connectivity or API rate limits and retry."
+      },
+      {
+        "name": "Performance (Desktop)",
+        "status": "error",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 8,
+        "value": "API error",
+        "detail": "Could not retrieve PageSpeed data for desktop.",
+        "recommendation": "Check internet connectivity or API rate limits and retry."
+      },
+      {
+        "name": "LCP (Largest Contentful Paint)",
+        "status": "error",
+        "priority": "high",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "API error",
+        "detail": "Could not retrieve LCP data.",
+        "recommendation": "Retry the PageSpeed Insights check."
+      },
+      {
+        "name": "CLS (Cumulative Layout Shift)",
+        "status": "error",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 4,
+        "value": "API error",
+        "detail": "Could not retrieve CLS data.",
+        "recommendation": "Retry the PageSpeed Insights check."
+      },
+      {
+        "name": "TBT (Total Blocking Time)",
+        "status": "error",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 3,
+        "value": "API error",
+        "detail": "Could not retrieve TBT data.",
+        "recommendation": "Retry the PageSpeed Insights check."
+      },
+      {
+        "name": "Accessibility Score",
+        "status": "error",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "API error",
+        "detail": "Could not retrieve accessibility data.",
+        "recommendation": "Retry the PageSpeed Insights check."
+      },
+      {
+        "name": "SEO (Lighthouse)",
+        "status": "error",
+        "priority": "medium",
+        "points_earned": 0,
+        "points_possible": 5,
+        "value": "API error",
+        "detail": "Could not retrieve Lighthouse SEO data.",
+        "recommendation": "Retry the PageSpeed Insights check."
+      }
+    ]
+  },
+  "gbp": {
+    "name": "Google Business Profile",
+    "score": 100.0,
+    "earned": 50,
+    "possible": 50,
+    "pass_count": 12,
+    "fail_count": 0,
+    "warn_count": 0,
+    "checks": [
+      {
+        "name": "Listing Found",
+        "status": "pass",
+        "priority": "critical",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "ChIJ4b-ef19vZIgRFT7IXM9ClTM",
+        "detail": "GBP listing found (place_id: ChIJ4b-ef19vZIgRFT7IXM9ClTM).",
+        "recommendation": ""
+      },
+      {
+        "name": "Name Match",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "TNT Chem-Dry",
+        "detail": "GBP name \"TNT Chem-Dry\" matches the expected name \"TNT Chem-Dry\".",
+        "recommendation": ""
+      },
+      {
+        "name": "Phone Present",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "(615) 557-5231",
+        "detail": "Phone number is set on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Website Set",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "https://www.tntchemdry.com/",
+        "detail": "Website URL is set on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Address Complete",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "Service Area Business (SAB)",
+        "detail": "This Google Business Profile is properly configured as a Service Area Business (SAB). Its street address is hidden from the public to protect residential privacy, and its territory is defined by service area boundaries, which is the exact brand-compliant setup for mobile/on-site service franchisees.",
+        "recommendation": ""
+      },
+      {
+        "name": "Hours Set",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "1 period(s)",
+        "detail": "Business hours are configured on GBP.",
+        "recommendation": ""
+      },
+      {
+        "name": "Rating",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "4.9⭐",
+        "detail": "Rating is 4.9 (target ≥ 4.0).",
+        "recommendation": ""
+      },
+      {
+        "name": "Review Count",
+        "status": "pass",
+        "priority": "high",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "384 reviews",
+        "detail": "384 reviews (target ≥ 10).",
+        "recommendation": ""
+      },
+      {
+        "name": "Photos",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "10 photos",
+        "detail": "10 photos found (minimum 3).",
+        "recommendation": ""
+      },
+      {
+        "name": "Primary Category",
+        "status": "pass",
+        "priority": "medium",
+        "points_earned": 3,
+        "points_possible": 3,
+        "value": "Carpet Cleaning Service",
+        "detail": "Primary category is set: \"Laundry (raw type: laundry)\".",
+        "recommendation": ""
+      },
+      {
+        "name": "Category Match",
+        "status": "pass",
+        "priority": "critical",
+        "points_earned": 5,
+        "points_possible": 5,
+        "value": "Carpet Cleaning Service",
+        "detail": "GBP primary category \"Laundry\" matches the expected \"Carpet Cleaning Service\" for this brand.",
+        "recommendation": ""
+      },
+      {
+        "name": "NAP Consistency",
+        "status": "pass",
+        "priority": "critical",
+        "points_earned": 4,
+        "points_possible": 4,
+        "value": "Name, Address, & Phone Match",
+        "detail": "Consistent NAP found. Matches: Name matched, Phone matched, Address matched (SAB Hidden Address).",
+        "recommendation": ""
+      }
+    ]
+  }
+}
